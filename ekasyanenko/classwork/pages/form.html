@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Форма регистрации</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h2>Персональные данные</h2>
+    <form action="" method="post">
+      <div>
+        <label for="f1">ФИО:</label>
+        <input type="text"
+               name="username"
+               id="f1"
+               placeholder="Введите ФИО"
+               required>
+      </div>
+      <div>
+        <label>Пол</label>
+        <input type="radio" name="gender" value="m"><span>М</span>
+        <input type="radio" name="gender" value="f"><span>Ж</span>
+      </div>
+      <div>
+        <label for="age">Возраст</label>
+        <input type="number" name="age" value="" id="age" min="0" max="100">
+      </div>
+      <div>
+        <label>Вы были здесь раньше?</label>
+        <input type="checkbox" name="ch1" value="v1"><span>Один раз</span>
+        <input type="checkbox" name="ch2" value="v2" checked><span>Бываю иногда</span>
+        <input type="checkbox" name="ch3" value="v3"><span>Никогда не был</span>
+      </div>
+      <div>
+        <label for="tel">Телефон</label>
+        <input type="tel" name="tel" value="" id="tel">
+      </div>
+      <div>
+        <select class="" name="citySelector">
+            <option value="">Выберите город...</option>
+            <option value="citySpb">Санкт-Петербург</option>
+            <option value="cityMsk">Москва</option>
+            <option value="cityNsk">Новосибирск</option>
+        </select>
+      </div>
+      <h2>Данные для входа</h2>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" value="" id="email">
+      </div>
+      <div>
+        <label for="paswd">Пароль</label>
+        <input type="password" name="paswd" value="" id="paswd">
+      </div>
+      <div>
+        <button type="submit" name="button">Отправить</button>
+        <button type="reset" name="button">Очистить</button>
+
+      </div>
+
+    </form>
+  </body>
+</html>
