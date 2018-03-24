@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
+	<meta description="Design">
 	<title>Design</title>
+	<link rel="stylesheet" href="css/fontAwesome.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
@@ -41,7 +43,7 @@
 				Responsive layout
 			</h1>
 			<p>Integer ut dolor eget magna congue gravida ut at arcu. Vivamus maximus neque </br> quis luctus tempus. Vestibulum consequat.</p>
-			<a class="button" href="#">View details</a>
+			<a href="#openModal" class="button">View details</a>
 		</div>	
 	</header>
 	<section id="services">
@@ -267,7 +269,26 @@
 			<div class="footer">
 				 <p>Copyright © 2017 Company Name - Design: <span>Toolplate</span></p>
 			</div>
+			<div class="icons">
+                    <button><a href="https://www.facebook.com/" class="fa-facebook-f"></a></button>
+                    <button><a href="https://www.vk.com/" class="fa-vk"></a></button>
+                    <button><a href="https://www.twitter.com/" class="fa-twitter"></a></button>
+                    <button><a href="https://www.linkedin.com/" class="fa-linkedin"></a></button>
+                    <button><a href="" class="fa-rss"></a></button>
+                </div>
 		</div>
 	</footer>
+    <div id="openModal" class="modal">
+            <div class="content">
+                <form class="form_flex">
+                    <h4>Feedback</h4>
+                    <a href="#close" title="Закрыть" class="close"><img src="img/close.png"></a>
+                    <input type="text" name="name" placeholder="Your name...">
+                    <input type="email" name="email" placeholder="Your email...">
+                    <input type="tel" placeholder="Your phone number...">
+                    <a href="" class="button">SEND</a>
+                </form>
+            </div>
+        </div>
 </body>
 </html>
