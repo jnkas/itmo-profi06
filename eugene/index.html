@@ -3,47 +3,51 @@
 <head>
 	<meta charset="UTF-8">
 	<meta description="Design">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Design</title>
 	<link rel="stylesheet" href="css/fontAwesome.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/mobile.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<div class="container">
-			<div class="heading clearfix">
-				<img src="img/white_logo.png" alt="Meteor" class="logo">
-				<nav>
-					<ul class="menu">
-						<li>
-							<a href="#">Home</a>
-						</li>
-						<li>
-							<a href="#">About us</a>
-						</li>
-						<li>
-							<a href="#">Portfolio</a>
-						</li>
-						<li>
-							<a href="#">Blog</a>
-						</li>
-						<li>
-							<a href="#">Contact us</a>
-						</li>
-					</ul>
-				</nav>
+		<div class="main">
+			<div class="container">
+				<div class="heading">
+					<img src="img/white_logo.png" alt="Meteor" class="logo">
+					<nav>
+						<ul class="menu">
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#services">About us</a>
+							</li>
+							<li>
+								<a href="#portfolio">Portfolio</a>
+							</li>
+							<li>
+								<a href="#blog">Blog</a>
+							</li>
+							<li>
+								<a href="#contact">Contact us</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
 			</div>
-		</div>
-		<div class="titles">
-			<div class="titles__first">
-				Design is a hobby
+			<div class="titles">
+				<div class="titles__first">
+					Design is a hobby
+				</div>
+				<h1>
+					Responsive layout
+				</h1>
+				<p>Integer ut dolor eget magna congue gravida ut at arcu. Vivamus maximus neque </br> quis luctus tempus. Vestibulum consequat.</p>
+				<a href="#openModal" class="button">View details</a>
 			</div>
-			<h1>
-				Responsive layout
-			</h1>
-			<p>Integer ut dolor eget magna congue gravida ut at arcu. Vivamus maximus neque </br> quis luctus tempus. Vestibulum consequat.</p>
-			<a href="#openModal" class="button">View details</a>
 		</div>	
 	</header>
 	<section id="services">
@@ -53,67 +57,56 @@
 					What we do
 				</h2>
 			</div>
-			<div  class="services clearfix">
-				<div class="services__item">
-					<img src="img/first-service-main.png" alt="Услуга">
-					<h3>
-						Easy Customizations
-					</h3>
-					<p>
-						Meteor is free HTML websitetemplate by Tooplate. Feel free to use this layout for your project.
-					</p>
-				</div>
-				<div class="services__item">
-					<img src="img/second-service-main.png" alt="Услуга">
-					<h3>
-						Creative Ideas
-					</h3>
-					<p>
-						Biodiesel schitz suculents phone clishe ramps snackwave coloring book tumeric poke, typewriter.
-					</p>
-				</div>
-				<div class="services__item">
-					<img src="img/third-service-main.png" alt="Услуга">
-					<h3>
-						Good Profit
-					</h3>
-					<p>
-						Biodiesel schitz suculents phone clishe ramps snackwave coloring book tumeric poke, typewriter.
-					</p>
-				</div>
-				<div class="services__item">
-					<img src="img/fourth-service-main.png" alt="Услуга">
-					<h3>
-						Open To Public
-					</h3>
-					<p>
-						Biodiesel schitz suculents phone clishe ramps snackwave coloring book tumeric poke, typewriter.
-					</p>
-				</div>
-			</div>
+			<div class="box-group row">
+                   <div class="col-3">
+                       <div class="box">
+                            <img src="img/first-service-main.png" alt="image of a pencil">
+                            <h4>Easy Customizations</h4>
+                            <p> Libero quos ducimus ab. Reiciendis fuga animi dolor, quo pariatur.</p>
+                       </div>
+                   </div>
+                   <div class="col-3">
+                       <div class="box">
+                            <img src="img/second-service-main.png" alt="image of a lamp">
+                            <h4>Creative Ideas</h4>
+                            <p> Libero quos ducimus ab. Reiciendis fuga animi dolor, quo pariatur.</p>
+                       </div>
+                   </div>
+                   <div class="col-3">
+                       <div class="box">
+                            <img src="img/third-service-main.png" alt="image of cash">
+                            <h4>Good Profit</h4>
+                            <p> Libero quos ducimus ab. Reiciendis fuga animi dolor, quo pariatur.</p>
+                       </div>
+                   </div>
+                   <div class="col-3">
+                       <div class="box">
+                            <img src="img/fourth-service-main.png" alt="image of a speaker">
+                            <h4>Open To Public</h4>
+                            <p> Libero quos ducimus ab. Reiciendis fuga animi dolor, quo pariatur.</p>
+                       </div>
+                   </div>
+                </div>
+            </div>
 		</div>
 	</section>
 	<section id="offer">
-		<div class="container row">
-			<div class="col-6">
-				<div class="offers">
+		<div class="container">
+			<div class="offers">
+				<div class="offers__box">
 					<h3>
 						New offers just arrived,</br> Get it now and take profit.
 					</h3>
-					<p>
+					<p>							
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus</br> dicta qui similique, culpa non, doloribus laboriosam dolore omnis saepe</br> sint quia numquam esse cum nihil deserunt ullam ipsa.
 					</p>
 					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat inventore</br> odit tempore esse beatae commodi, perspiciatis iure. Hic, cum, impedit provident</br> vitae distinctio quae architecto atque asperiores, delectus, eos molestias!
 					</p>
-					<div class="buttons">
-						<a class="button first" href="#">Discover more</a>
-						<a class="button" href="#">Purchase now</a>
-					</div>
+					<a href="#openModal" class="button first">Discover more</a>
+					<a href="#openModal" class="button">Purchase now</a>
 				</div>
-			</div>
-			<div class="col-6">
-				<div class="photo__food">
+				<div class="offers__box">
 					<img src="img/what-we-do-right-image.png" alt="Food">
 				</div>
 			</div>
@@ -180,8 +173,10 @@
 			</div>
 			<div class="blog__gallery">
 				<div class="blog__left">
-					<div class="blog__img">
-						<img src="img/blog_01.jpg" alt="" class="Blog1">
+					<div class="blog_gallery__item">
+						<div class="blog__img">
+							<img src="img/blog_01.jpg" alt="" class="Blog1">
+						</div>
 						<div class="blog__description">
 							<h4>Delecioius Dood Served</h4>
 							<p>Posted: George / Date: 11 Aug 2017 / Category: Design</p>
@@ -189,15 +184,19 @@
 					</div>
 				</div>
 				<div class="blog__right">
-					<div class="blog__img">
-						<img src="img/blog_02.jpg" alt="" class="Blog1">
+					<div class="blog_gallery__item">
+						<div class="blog__img">
+							<img src="img/blog_02.jpg" alt="" class="Blog1">
+						</div>
 						<div class="blog__description">
 							<h4>Delecioius Dood Served</h4>
 							<p>Posted: George / Date: 11 Aug 2017 / Category: Design</p>
 						</div>
 					</div>
-					<div class="blog__img">
-						<img src="img/blog_03.jpg" alt="" class="Blog1">
+					<div class="blog_gallery__item">
+						<div class="blog__img">
+							<img src="img/blog_03.jpg" alt="" class="Blog1">
+						</div>
 						<div class="blog__description">
 							<h4>Delecioius Dood Served</h4>
 							<p>Posted: George / Date: 11 Aug 2017 / Category: Design</p>
@@ -213,26 +212,26 @@
                 <div class="box-group row">
                     <div class="col-3">
                         <div class="results__item">
-                        <h3>926</h3>
-                        <p>regular visitors</p>
+                        	<h3>926</h3>
+                        	<p>regular visitors</p>
                         </div>
                     </div>
                     <div class="col-3">
-                       <div class="results__item">
-                        <h3>214</h3>
-                        <p>finished projects</p>
+                    	<div class="results__item">
+                        	<h3>214</h3>
+                        	<p>finished projects</p>
                         </div> 
                     </div>
                     <div class="col-3">
-                       <div class="results__item">
-                        <h3>118</h3>
-                        <p>happy clients</p>
+                    	<div class="results__item">
+                        	<h3>118</h3>
+                        	<p>happy clients</p>
                         </div> 
                     </div>
                     <div class="col-3">
                         <div class="results__item">
-                        <h3>16</h3>
-                        <p>total awards</p>
+                        	<h3>16</h3>
+                        	<p>total awards</p>
                         </div>
                     </div>
                 </div>
@@ -270,25 +269,25 @@
 				 <p>Copyright © 2017 Company Name - Design: <span>Toolplate</span></p>
 			</div>
 			<div class="icons">
-                    <button><a href="https://www.facebook.com/" class="fa-facebook-f"></a></button>
-                    <button><a href="https://www.vk.com/" class="fa-vk"></a></button>
-                    <button><a href="https://www.twitter.com/" class="fa-twitter"></a></button>
-                    <button><a href="https://www.linkedin.com/" class="fa-linkedin"></a></button>
-                    <button><a href="" class="fa-rss"></a></button>
-                </div>
+                <button><a href="https://www.facebook.com/" class="fa-facebook-f"></a></button>
+                <button><a href="https://www.vk.com/" class="fa-vk"></a></button>
+                <button><a href="https://www.twitter.com/" class="fa-twitter"></a></button>
+                <button><a href="https://www.linkedin.com/" class="fa-linkedin"></a></button>
+                <button><a href="" class="fa-rss"></a></button>
+            </div>
 		</div>
 	</footer>
     <div id="openModal" class="modal">
-            <div class="content">
-                <form class="form_flex">
-                    <h4>Feedback</h4>
-                    <a href="#close" title="Закрыть" class="close"><img src="img/close.png"></a>
-                    <input type="text" name="name" placeholder="Your name...">
-                    <input type="email" name="email" placeholder="Your email...">
-                    <input type="tel" placeholder="Your phone number...">
-                    <a href="" class="button">SEND</a>
-                </form>
-            </div>
+        <div class="content">
+            <form class="form_flex">
+                <h4>Feedback</h4>
+                <a href="#close" title="Закрыть" class="close"><img src="img/close.png"></a>
+                <input type="text" name="name" placeholder="Your name...">
+                <input type="email" name="email" placeholder="Your email...">
+                <input type="tel" placeholder="Your phone number...">
+                <a href="" class="button">SEND</a>
+            </form>
         </div>
+    </div>
 </body>
 </html>
