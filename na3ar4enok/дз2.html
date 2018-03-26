@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+//задача 1
+	// var x = prompt("Введите число x");
+	// var y = prompt("Введите число y");
+ //  	var d;
+
+	// if (x < y) {
+	// 	alert("Цифры остались в своих коробках");
+	// } else {
+	// 	d = x;
+	// 	x = y;
+	// 	y = d;
+	// 	alert("Цифры поменяны");
+	// }
+
+
+	//задача 2
+		var x1 = parseInt(prompt("Введите координату x1 "));
+		var y1 = parseInt(prompt("Введите координату y1 "));
+		var z1 = parseInt(prompt("Введите координату z1"));
+		var x2 = parseInt(prompt("Введите координату x2"));
+		var y2 = parseInt(prompt("Введите координату y2"));
+		var z2 = parseInt(prompt("Введите координату z2"));
+		var x3 = parseInt(prompt("Введите координату x3"));
+		var y3 = parseInt(prompt("Введите координату y3"));
+		var z3 = parseInt(prompt("Введите координату z3"));
+		
+		var x = Math.sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2)+(z1-z2)*(z1-z2));
+		var y = Math.sqrt((x2-x3)*(x2-x3)+(y2-y3)*(y2-y3)+(z2-z3)*(z2-z3));
+		var z = Math.sqrt((x3-x1)*(x3-x1)+(y3-y1)*(y3-y1)+(z3-z1)*(z3-z1));
+
+		if ( (x*x) + (y*y) === z*z ) {
+			alert("Треугольник прямоугольный")
+		} else if ((z*z) + (y*y) === x*x) {
+			alert("Треугольник прямоугольный")
+		}
+		else if ((x*x) + (z*z) === y*y){
+			alert("Треугольник прямоугольный")
+		}
+		else{
+			alert("Треугольник не является прямоугольным")
+		}
+
+
+		//задача 3
+
+		// var x = parseInt(prompt("Введите номер месяца"));
+
+		// switch(x) {
+		// 	case 1:
+		// 	case 2:
+		// 	case 12:
+		// 	alert("Зима");
+		// 	break;
+		// 	case 3:
+		// 	case 4:
+		// 	case 5:
+		// 	alert("Весна");
+		// 	break;
+		// 	case 6:
+		// 	case 7:
+		// 	case 8:
+		// 	alert("Лето");
+		// 	break;
+		// 	case 9:
+		// 	case 10:
+		// 	case 11:
+		// 	alert("Осень");
+		// 	break;
+		// 	default:
+		// 	alert("Попробуй посмотреть в календарь");
+		// }
+
+
+//задача 4
+		// var x = parseInt(prompt("Выбирите еденицу измерения\n1 — дециметр \n2 — километр\n3 — метр\n4 — миллиметр \n5 — сантиметр " ));
+		// var y = parseInt(prompt("Введите длину"));
+
+		// switch(x){
+		// 	case 1:
+		// 	alert(y/10 + "метров")
+		// 	break;
+		// 	case 2:
+		// 	alert(y*1000 + "метров")
+		// 	break;
+		// 	case 3:
+		// 	alert(y + "метров")
+		// 	break;
+		// 	case 4:
+		// 	alert(y/1000 + "метров")
+		// 	break;
+		// 	case 5:
+		// 	alert(y/100 + "метров")
+		// 	break;
+		// 	default:
+		// 	alert("Не корректно выбрана величина");
+		// }
+	</script>
+</body>
+</html>
