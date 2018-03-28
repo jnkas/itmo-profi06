@@ -263,6 +263,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0;
 }
 
 .blog__description {

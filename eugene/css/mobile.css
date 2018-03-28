@@ -51,9 +51,22 @@
     	width: auto;
     }
 
+    .blog__description {
+        width: auto;
+        margin-left: 20px;
+    }
+
     .blog__img {
     padding-left: 20px;
-}	
+    }
+
+    .result .col-3 {
+        max-height: 25vh;
+    }
+    
+    .result .box-group {
+        padding-bottom: 8rem;
+    }	
 
 }
 
@@ -101,3 +114,9 @@
         width: auto;
         margin-bottom: 1rem;
     }
+    
+    .blog__img img {
+        width: 100%;
+    }
+
+    
