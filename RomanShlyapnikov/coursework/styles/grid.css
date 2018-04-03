@@ -1,15 +1,17 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
 }
 
-.container {
+.container { 
     max-width: 1140px;
     margin-right: auto;
     margin-left: auto;
 }
+
 
 .col-1,
 .col-2,
@@ -62,6 +64,7 @@ body {
 .col-12 {
   width: 100%;
 }
+
 
 .row::after {
     content: ".";
