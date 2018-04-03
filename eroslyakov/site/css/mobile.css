@@ -145,21 +145,18 @@
     
     .section.seventh .block-5 .rightside-7 .nameform,
     .section.seventh .block-5 .rightside-7 .emailform {
-        max-width: 32vw;
+        max-width: 36vw;
         margin-left: 4vw;
         margin-bottom: 30px;
+    }
+    
+    .section.seventh .block-5 .rightside-7 .emailform {
+        margin-left: 0;
     }
     
     .section.seventh .block-5 .rightside-7 input {
-        min-width: 36vw;
+        min-width: 34vw;
         margin: 0;
-    }
-    
-    .section.seventh .block-5 .rightside-7 .nameform, 
-    .section.seventh .block-5 .rightside-7 .emailform {
-        width: 30vw;
-        margin-left: 4vw;
-        margin-bottom: 30px;
     }
     
     .section.seventh .col-12.bottomright-7 {
@@ -230,7 +227,7 @@
     .section.second .box-group .col-3.box-4 {
         padding: 0;
         min-width: 84vw;
-        margin-left: 2vw;
+        margin-left: 10vw;
     }
     
     .section.second .box-group .box p {
@@ -241,7 +238,7 @@
     }
     
     .section.third .block-2 {
-        max-width: 90vw;
+        max-width: 86vw;
     }
     
     .section.third .block-2 .content p {
@@ -268,6 +265,11 @@
         transform: translateX(11vw);
     }
     
+    .section.fourth .line {
+        margin-bottom: 0;
+        padding-left: 8vw;
+    }
+
     .section.fourth .line .col-3.box-1, 
     .section.fourth .line .col-3.box-2, 
     .section.fourth .line .col-3.box-3, 
@@ -350,5 +352,23 @@
         width: 94vw;
         padding: 15px;
         margin-left: 3vw;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .section.second .box-group .col-3.box-1, 
+    .section.second .box-group .col-3.box-2, 
+    .section.second .box-group .col-3.box-3, 
+    .section.second .box-group .col-3.box-4 {
+        margin-left: 2vw;
+    }
+    
+    .section.fourth .menu.fourth ul {
+        transform: translateX(12vw);
+    }
+    
+    .section.fourth .line {
+        padding-left: 4vw;
     }
 }
