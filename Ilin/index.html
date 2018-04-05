@@ -1,3 +1,311 @@
-This is my first site
-Today is 01/03/18
-Awesome banner will be placed here
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML + CSS</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="css/fontAwesome.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/desktop.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <img src="img/white_logo.png" alt="logo">
+      <ul class="top-nav">
+        <li>
+          <i class="fa fa-ellipsis-h"></i>
+          <ul class="bot-nav">
+            <li>Home</li>
+            <li>About us</li>
+            <li>Portfolio</li>
+            <li>Blog</li>
+            <li>Contact us</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- секция Main -->
+  <section class="main">
+    <div class="container">
+      <div class="main-header">
+        <p class="before-header">Design is a hobby</p>
+        <h1>Responsive layout</h1>
+        <p class="description">Integer ut dolor eget magna congue gravida ut at arcu. Vivamus maximus neque quis luctus tempus. Vestibulum consequat.</p>
+        <a href="#" class="green-button">View details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- секция What we do -->
+  <section class="what-we-do">
+    <div class="container">
+      <h2>What we do</h2>
+      <div class="row">
+        <div class="col-3">
+          <div class="box">
+            <div class="first-box"></div>
+            <h4>Easy Customization</h4>
+            <p>Meteor is free HTML website template by Tooplate. Feel free to use this layout for your project.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box">
+            <div class="second-box"></div>
+            <h4>Creative Ideas</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box">
+            <div class="third-box"></div>
+            <h4>Good Profit</h4>
+            <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box">
+            <div class="fourth-box"></div>
+            <h4>Open To Public</h4>
+            <p>Biodiesel schltz suculents phone cliche ramps snackwave coloring book tumeric poke, typewriter.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- секция Unknown -->
+  <section class="unknown-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h4>New offers just arrived,<br/>Get it now and take profit.</h4>
+          <p>Gochujang pitchfork post-ironic hammock kombucha fanny pack cronut. Raw denim chicharrones semiotics af truffaut pinterest. Distillery letterpress authentic adaptogen. Meditation schlitz humblebrag photo booth celiac cliche chartreuse.</p>
+          <p>Pinterest 90's wolf celiac dreamcatcher listicle deep v semiotics. Intelligentsia literally meggings trust fund put a bird on it. Shoreditch crucifix artisan pug shaman twee. Health goth bicycle rights retro iPhone.</p>
+          <a href="#" class="white-button">Discover more</a>
+          <label for="modal" class="green-button">Purchase now</label>
+        </div>
+        <div class="col-6">
+          <img src="img/what-we-do-right-image.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- секция Portfolio -->
+  <section class="portfolio">
+    <div class="container">
+      <h2>Our portfolio</h2>
+      <div class="gallery">
+        <div class="categories">
+          <ul>
+            <li class="current-category">All</li>
+            <li>Nature</li>
+            <li>Workspace</li>
+            <li>City</li>
+            <li>Technology</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="photo">
+            <img src="img/portfolio_01.jpg" alt="portfolio_01">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo">
+            <img src="img/portfolio_02.jpg" alt="portfolio_02">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo">
+            <img src="img/portfolio_03.jpg" alt="portfolio_03">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo">
+            <img src="img/portfolio_04.jpg" alt="portfolio_04">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="photo">
+            <img src="img/portfolio_05.jpg" alt="portfolio_05">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo">
+            <img src="img/portfolio_06.jpg" alt="portfolio_06">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo">
+            <img src="img/portfolio_07.jpg" alt="portfolio_07">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo">
+            <img src="img/portfolio_08.jpg" alt="portfolio_08">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- секция Blog -->
+  <section class="blog">
+    <div class="container">
+      <h2>Our blog posts</h2>
+      <div class="row">
+        <div class="col-6">
+          <div class="post">
+            <img src="img/blog_01.jpg" alt="post-1">
+            <div class="text">
+              <h4>Delecioius food Served</h4>
+              <p>Posted: George / Date: 11 Aug 2017 / Category: Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="post">
+            <img src="img/blog_02.jpg" alt="post-2">
+            <div class="text">
+              <h4>Creative & Clean Workspace</h4>
+              <p>Posted: Kerley / Date: 24 Jul 2017 / Category: Artwork</p>
+            </div>
+          </div>
+          <div class="post">
+            <img src="img/blog_03.jpg" alt="post-3">
+            <div class="text">
+              <h4>Crashed Plane Captured</h4>
+              <p>Posted: Johnny / Date: 16 Jul 2017 / Category: Branding</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- секция Achievements -->
+  <section class="achievements">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="achievement">
+            <h3>926</h3>
+            <p>Regular visitors</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="achievement">
+            <h3>214</h3>
+            <p>Finished projects</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="achievement">
+            <h3>118</h3>
+            <p>Happy clients</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="achievement">
+            <h3>16</h3>
+            <p>Total awards</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- секция Contact us -->
+  <section class="contact-us">
+    <div class="container">
+      <h2>Contact us</h2>
+      <div class="row">
+        <div class="col-6">
+          <div class="map">
+            <img src="img/map.jpg" alt="map">
+          </div>
+        </div>
+        <div class="col-6">
+          <form action="" method="get">
+            <div class="row">
+              <div class="col-6">
+                <input type="text" id="name" name="name" placeholder="Your name...">
+              </div>
+              <div class="col-6">
+                <input type="text" id="email" name="email" placeholder="Your email...">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message..."></textarea>
+                <button type="submit" id="submit" class="button-submit">Send message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="copyright">
+            <p>Copyright © 2017 Company Name - Design: <span>Tooplate</span></p>
+          </div>
+        </div>
+        <div class="col-6">
+          <ul class="social-nets">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-rss"></i></a></li>
+            <li><a href="#"><i class="fa fa-vk"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <input type="checkbox" name="modal" id="modal" class="modal">
+  <div class="modal-window">
+    <div class="modal-content">
+      <div class="close-modal">
+        <label for="modal"><i class="fa fa-times"></i></label>
+      </div>
+      <form action="" method="get">
+        <div class="row">
+          <div class="col-4">
+            <label for="name">Your name: </label>
+          </div>
+          <div class="col-8">
+            <input type="text" id="name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <label for="phone">Your phone: </label>
+          </div>
+          <div class="col-8">
+            <input type="tel" id="phone">
+          </div>
+        </div>
+        <button type="submit" id="modal-submit" class="button-submit">Send</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
