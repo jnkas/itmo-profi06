@@ -1,0 +1,446 @@
+@media (max-width: 1300px) {
+    .navbar-header .logo {
+        padding-left: 20px;
+    }
+    #blog {
+        padding-bottom: 0px;
+    }
+    #blog .blog-contents {
+        max-width: 98%;
+    }
+    #blog .blog-contents .blog-entries .entry-one {
+        width: 49.1%;
+    }
+    #blog .blog-contents .blog-entries .entry-one img {
+        height: 425px;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    #blog .blog-contents .blog-entries .entry-one div {
+        max-width: 100%;
+        box-sizing: border-box;
+        height: 84px;
+    }
+
+    #blog .blog-contents .blog-entries .blog-post-right {
+        width: 40%;
+        box-sizing: border-box;
+    }
+
+    .blog-post-right .entry-two {
+        box-sizing: border-box;
+        margin-bottom: 40px;
+        margin-left: -100px;
+    }
+
+    .blog-post-right .entry-three {
+        margin-left: -100px;
+    }
+    .blog-post-right .entry-two img,
+    .blog-post-right .entry-two div,
+    .blog-post-right .entry-three img,
+    .blog-post-right .entry-three div {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .pf-contents .images {
+        text-align: center
+    }
+
+    #what-we-do .section-item {
+        width: 45%;
+    }
+
+    #company-facts .section-item {
+        padding: 18px;
+        margin: 1% 2%;
+        width: 20%;
+    }
+
+    #contact-us .section-content .holland-map {
+        width: 44%;
+        padding-left: 30px;
+    }
+
+    #contact-us .section-content .contact-form {
+        width: 44%;
+    }
+
+    #contact-us .section-content .contact-form form {
+        margin: 93px;
+        margin-top: 0
+    }
+
+    #contact-us .section-content .contact-form form .name-input {
+        margin-bottom: 17px;    
+    }
+
+    #contact-us .section-content .contact-form form .email-input {
+        float: left;
+    }
+
+    #contact-us .section-content .contact-form form .message-input fieldset {
+        padding-top: 29px;
+    }
+
+    #contact-us .section-content .contact-form form .message-input fieldset textarea {
+        height: 130px;
+        width: 130%;
+    }
+
+    #contact-us .section-content .contact-form form .contact-button {
+        margin-top: 136px;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+    .navbar-header .logo {
+        padding-left: 20px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    nav {
+        max-width: 530px;
+    }
+    .mobile-nav {
+        display: block;
+        float: right;
+    }
+
+    .mobile-nav .show-menu {
+        margin: 0px 30px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 15px;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 8px;
+        background: #a2cf8e;
+    }
+
+    .mobile-nav ul {
+        width: 150px;
+        list-style: none;
+        margin: 15px;
+        position: absolute;
+        right: 0;
+        display:none;
+    }
+
+    .mobile-nav ul li {
+        border: none;
+        padding: 10px;
+        background: #1b1b10;
+    }
+
+    .mobile-nav ul li a {
+        color: white;
+    }
+
+
+
+    .offers-text {
+        width: 100%;
+        margin-bottom: 30px;
+    } 
+
+    .offers-image {
+        float: none;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .offers-image img {
+        width: 100%;
+    }
+
+
+    #blog {
+        max-width: 100%;
+        height: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+        box-sizing: border-box;
+    }
+
+    #blog .blog-contents .blog-entries .entry-one,
+    #blog .blog-contents .blog-entries .blog-post-right,
+    #blog .blog-contents .blog-entries .blog-post-right .entry-two,
+    #blog .blog-contents .blog-entries .blog-post-right .entry-three {
+        width:100%;
+        margin-left: 0;
+
+    }
+
+    .blog-entries .entry-one img,
+    .blog-entries .entry-two img, 
+    .blog-entries .entry-three img {
+        width:100%;
+        height: 360px;
+    }
+
+    .entry-one .post-content,
+    .entry-two .post-content,
+    .entry-three .post-content {
+        box-sizing: border-box;
+        width: 100%;
+        height: 84px;
+    }
+
+    .blog-entries .blog-post-right {
+        display: block;
+        float: none;
+        margin-left: 0px;
+        padding-left: 0px;
+        clear: both;
+        width: 100%;
+    }
+
+    #company-facts .section-content .section-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+        /*contact form*/
+
+    #contact-us .section-content .holland-map {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #contact-us .section-content .holland-map {
+        padding-left: 0;
+    }
+
+    #contact-us {
+        height: 700px;
+    }
+
+    #contact-us .section-content .contact-form {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    #contact-us .section-content .contact-form form {
+        margin: 0;
+    }
+
+    .name-input { 
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+
+    .email-input {
+        float: none;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    fieldset {
+        width: 100%;
+        text-align: center;
+    }
+
+    fieldset input {
+        margin-left: 10%;
+    }
+
+    fieldset input#email {
+        margin-left: 20px;
+        float: left;
+        width: 80%;
+    }
+
+    .message-input {
+        padding-top: 30px;
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+    .contact-button,
+    .contact-button button {
+        text-align: center;
+    }
+
+    #contact-us .section-content .contact-form form .message-input fieldset textarea {
+        height: 130px;
+        width: 95%;
+}
+
+
+@media (max-width: 530px) {
+    #what-we-do div .section-content div.section-item {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .offers-text {
+        width: 100%;
+        margin-bottom: 20px;
+    } 
+
+    .offers-image {
+        float: none;
+        width: 90%;
+    }
+
+    .offers-image img {
+        width: 100%;
+    }
+
+    .pf-contents .portfolio-item .image img {
+        margin-left: 30%;
+    }
+
+    /* blog */
+
+    #blog {
+        max-width: 100%;
+        height: auto;
+        padding-left: 2%;
+        padding-right: 2%;
+        box-sizing: border-box;
+    }
+
+    #blog .blog-contents .blog-entries .entry-one,
+    #blog .blog-contents .blog-entries .blog-post-right,
+    #blog .blog-contents .blog-entries .blog-post-right .entry-two,
+    #blog .blog-contents .blog-entries .blog-post-right .entry-three {
+        width:100%;
+        margin-left: 0;
+
+    }
+
+    .blog-entries .entry-one img,
+    .blog-entries .entry-two img, 
+    .blog-entries .entry-three img {
+        width:100%;
+        height: 360px;
+    }
+
+    .entry-one .post-content,
+    .entry-two .post-content,
+    .entry-three .post-content {
+        box-sizing: border-box;
+        width: 100%;
+        height: 84px;
+    }
+
+    .blog-entries .blog-post-right {
+        display: block;
+        float: none;
+        margin-left: 0px;
+        padding-left: 0px;
+        clear: both;
+        width: 100%;
+    }
+
+    #company-facts .section-content .section-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /*contact form*/
+
+    #contact-us {
+        height: 700px;
+    }
+
+    #contact-us .section-content .contact-form {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    #contact-us .section-content .contact-form form {
+        margin: 0;
+    }
+
+    .name-input { 
+        margin-bottom: 20px;
+        margin-left: 5px;
+    }
+
+    .email-input {
+        float: none;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    fieldset {
+        width: 100%;
+        text-align: center;
+    }
+
+    fieldset input {
+        margin-left: 10%;
+    }
+
+    fieldset input#email {
+        margin-left: 20px;
+        float: left;
+        width: 80%;
+    }
+
+    .message-input {
+        padding-top: 30px;
+    }
+
+    textarea {
+        width: 90%;
+    }
+
+    .contact-button,
+    .contact-button button {
+        text-align: center;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+    footer .copyright-text {
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer .sm-icons {
+    float: none;
+    text-align: center;
+    }
+    #contact-us .section-content .contact-form form .message-input fieldset textarea {
+        width: 98%;
+    }
+    #contact-us .section-content .holland-map {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #contact-us .section-content .holland-map img{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    footer .section-content .sm-icons ul li a {
+        display: block;
+        height: 29px;
+        line-height: 29px;
+        padding: 0 8px;
+        color: black;
+    }
+}
