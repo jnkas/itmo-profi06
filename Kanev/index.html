@@ -1,3 +1,335 @@
-First site of mine
-Today is 01/03/2018
-Banner here
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meteor Studio</title>
+  <meta name="description" content="Photo studio. Works with professional photographers. Quality service for your purpose.">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="css/fontAwesome.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <!-- fixed header -->
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="title clearfix">
+          <div id="nav-icon">
+            <label class="fas fa-bars" for="show-menu"></label>
+          </div>        
+          <div id="title">
+            <a href="#"><img src="img/black_logo.png" alt="Meteor Studio Logo"></a>
+          </div>
+        </div>
+        <nav>
+          <input type="checkbox" name="Show menu" id="show-menu">
+          <ul class="top-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contacts">Contact us</a></li>
+          </ul>
+        </nav>  
+      </div>
+    </div>
+  </header>
+  <!-- intro section -->
+  <section class="introduction">
+    <div class="container">
+      <div class="studio-descr">
+        <p class="preheader">Hardwork as a hobby</p>
+        <h1>Meteor studio</h1>
+        <p class="postheader">Discover the Meteor studio. Our goal is to provide a quality photo service. Our photographers have big experience in various photo genres. So check out Meteor studio portfolio!</p>
+        <a class="button green-button" href="#about">View details</a>
+      </div>
+    </div>
+  </section>
+  <!-- about section -->
+  <div id="about" class="anchor"></div>
+  <section>
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-12 heading">
+          <h2>What we do</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="box">
+            <div class="box-icon">
+              <img src="img/first-service-main.png" alt="Pencil Icon">
+            </div>
+            <h3>Quality retouching</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium suscipit ex reprehenderit obcaecati nemo perspiciatis sint repudiandae totam possimus consequuntur!</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box">
+            <div class="box-icon">
+              <img src="img/second-service-main.png" alt="Lamp Icon">
+            </div>
+            <h3>Creative ideas</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium suscipit ex reprehenderit obcaecati nemo perspiciatis sint repudiandae totam possimus consequuntur!</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box">
+            <div class="box-icon">
+              <img src="img/third-service-main.png" alt="Dollar Icon">
+            </div>
+            <h3>Good prices</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium suscipit ex reprehenderit obcaecati nemo perspiciatis sint repudiandae totam possimus consequuntur!</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="box">
+            <div class="box-icon">
+              <img src="img/fourth-service-main.png" alt="Horn Icon">
+            </div>
+            <h3>Open to public</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium suscipit ex reprehenderit obcaecati nemo perspiciatis sint repudiandae totam possimus consequuntur!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- offers section -->
+  <div id="offers" class="anchor"></div>
+  <section class="offers">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-6">
+          <h3>New offers just arrived,<br/>Get it now and take profit.</h3>
+          <p>Gochujang pitchfork post-ironic hammock kombucha fanny pack cronut. Raw denim chicharrones semiotics af truffaut pinterest. Distillery letterpress authentic adaptogen. Meditation schlitz humblebrag photo booth celiac cliche chartreuse.</p>
+          <p>Pinterest 90's wolf celiac dreamcatcher listicle deep v semiotics. Intelligentsia literally meggings trust fund put a bird on it. Shoreditch crucifix artisan pug shaman twee. Health goth bicycle rights retro iPhone.</p>
+          <button class="white-button">Discover more</button>
+          <label for="show-modal" class="button green-button">Purchase now</label>
+        </div>
+        <div class="col-6">
+          <div class="offers-img">
+            <img src="img/what-we-do-right-image.png" alt="Meal Photos">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- portfolio section -->
+  <div id="portfolio" class="anchor"></div>
+  <section class="portfolio">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-12 heading">
+          <h2>Our portfolio</h2>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-12">
+          <ul class="filter">
+          <li class="active">All</li>
+          <li>Nature</li>
+          <li>Workspace</li>
+          <li>City</li>
+          <li>Technology</li>
+        </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="photo-gallery__item">
+            <img src="img/portfolio_01.jpg" alt="Workspace Photo 1">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo-gallery__item">
+            <img src="img/portfolio_02.jpg" alt="Workspace Photo 2">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo-gallery__item">
+            <img src="img/portfolio_03.jpg" alt="Workspace Photo 3">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo-gallery__item">
+            <img src="img/portfolio_04.jpg" alt="City Photo">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3">
+          <div class="photo-gallery__item">
+            <img src="img/portfolio_05.jpg" alt="Mountain Photo">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo-gallery__item">
+            <img src="img/portfolio_06.jpg" alt="Little Stormtrooper and a Lamp">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo-gallery__item">
+            <img src="img/portfolio_07.jpg" alt="Dining Room">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="photo-gallery__item">
+            <img src="img/portfolio_08.jpg" alt="Woman in the Restaurant">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog section -->
+  <div id="blog" class="anchor"></div>
+  <section class="blog">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-12 heading">
+          <h2 class="white">Our blog posts</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="img/blog_01.jpg" alt="Meal Blog Photo">
+            </div>
+            <div class="blog-title">
+              <h3>Delecious Food Served</h3>
+              <span>Posted: <em>George</em>  /  Date: <em>11 Aug 2017</em>  /  Category: <em>Artwork</em></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="img/blog_02.jpg" alt="Workspace Blog Photo">
+            </div>
+            <div class="blog-title">
+              <h3>Creative &amp; Clean Workspace</h3>
+              <span>Posted: <em>Kerley</em>  /  Date: <em>24 Jul 2017</em>  /  Category: <em>Branding</em></span>
+            </div>
+          </div>
+          <div class="blog-box">
+            <div class="blog-img">
+              <img src="img/blog_03.jpg" alt="Crashed Plane Photo">
+            </div>
+            <div class="blog-title">
+              <h3>Crashed Plane Captured</h3>
+              <span>Posted: <em>Johnny</em>  /  Date: <em>16 Jul 2017</em>  /  Category: <em>Event</em></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- metrics section -->
+  <section class="metrics">
+    <div class="container">
+      <div class="row clearfix">
+        <div class="col-3">
+          <div class="metric">
+            <p class="metrics-value">926</p>
+            <p class="metrics-name">Regular visitors</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="metric">
+            <p class="metrics-value">214</p>
+            <p class="metrics-name">Finished projects</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="metric">
+            <p class="metrics-value">118</p>
+            <p class="metrics-name">Happy clients</p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="metric">
+            <p class="metrics-value">16</p>
+            <p class="metrics-name">Total awards</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contacts section -->
+  <div id="contacts" class="anchor"></div>
+  <section class="contacts">
+    <div class="container clearfix">
+      <div class="row">
+        <div class="col-12 heading">
+          <h2 class="white">Contact us</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div class="map">
+            <img src="img/map.jpg" alt="Singapore Map">
+          </div>
+        </div>
+        <form>
+          <div class="col-3">
+            <input type="text" name="name" placeholder="Your name..." required>
+          </div>
+          <div class="col-3">
+            <input type="email" name="email" placeholder="Your email..." required>
+          </div>
+          <div class="col-6">
+            <textarea name="message" placeholder="Your message..." required></textarea>
+            <button class="green-button" type="submit">Send message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row clearfix">
+        <div class="col-6">
+          <div class="copyright">
+            <p>Copyright © 2018 Meteor Studio - Design:&nbsp;<a href="">Kanev&nbsp;A.</a></p>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="footer-icons">
+            <button class="green-button footer-icon">
+              <span class="fas fa-vk"></span>
+            </button>
+            <button class="green-button footer-icon">
+              <span class="fas fa-facebook"></span>
+            </button>
+            <button class="green-button footer-icon">
+              <span class="fas fa-twitter"></span>
+            </button>
+            <button class="green-button footer-icon">
+              <span class="fas fa-linkedin"></span>
+            </button>
+            <button class="green-button footer-icon">
+              <span class="fas fa-rss"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- modal -->
+  <input type="checkbox" name="Show modal" id="show-modal">
+  <div class="container modal">
+    <div class="modal-content clearfix">
+      <form>
+        <input type="text" name="name" placeholder="Your name..." required>
+        <input type="tel" name="phone" placeholder="Your phone number..." required>
+        <button class="green-button" type="submit">Purchase</button>
+        <label class="button white-button" for="show-modal">Cancel</label>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

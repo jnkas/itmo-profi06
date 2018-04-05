@@ -1,0 +1,792 @@
+@media (max-width: 425px) {
+    
+    header {
+        background-size: auto;
+    }
+    
+    .logo {
+        width: 25%;
+        background-size: 90%
+    }
+    
+    .nav {
+        width: 75%;
+        font-size: 7px;
+        margin-top: 1vh;
+    }
+    
+    .caption h3 {
+        font-size: 4vw;
+    }
+    
+    .caption p {
+        font-size: 2.7vw;
+    }
+    
+    .caption {
+        height: 400px;
+    }
+    
+    .button {
+        width: 28vw;
+        padding-top: 1.9vh;
+    }
+    
+    .caption .button1 {
+        vertical-align: middle;
+        font-size: 3.5vw;
+        font-weight: 600;
+        padding-top: 2vh;
+    }
+    
+    .wwd .box {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 9vh 8vw 4vh;
+    }
+    
+    div.windmill {
+        padding-top: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .box2 img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        
+    }
+    
+    .windmill .button-row{ 
+        justify-content: center; 
+    }
+    
+    .our-portfolio ul {
+        padding-left: 0;
+    }
+    
+    .our-portfolio .photo-gallery {
+        justify-content: center;
+    }
+    
+    .our-blog-posts {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    our-blog-posts .photo-gallery {
+        justify-content: center;
+    }
+    
+    .our-blog-posts .fruits {
+        width: 100%;
+        background-size: cover;
+        margin-right: 0px;
+        height: 81vw;
+    }
+    
+    .our-blog-posts .glasses {
+        margin-bottom: 0;
+    }
+    
+    .description {
+        width: 100%;
+        height: 9.5vh
+    }
+    .our-blog-posts h5 {
+        font-size: 3vw;
+        margin-top: 2vw;
+        margin-bottom: 0;
+    }
+
+    .our-blog-posts p {
+        font-size: 3vw;
+    }
+    
+    .second2 {
+        width: 100vw
+    }
+
+
+    .our-blog-posts .glasses {
+        width: 100%;
+        background-size: cover;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 42vw;
+    }
+    .our-blog-posts .plane {
+        width: 100%;
+        background-size: cover;
+        margin-left: 0px;
+
+        height: 42vw;
+    }
+    
+    .box-group .statistics {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .box-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .stat .container .box-group {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    
+    .contacts .map{
+        height: auto;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+    .contacts .map img{
+        height: 50vw;
+    }
+    
+    .contacts {
+        text-align: center;
+    }
+    
+    .contacts .map {
+        text-align: center;
+    }
+       
+    
+    .contacts .form {
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .contacts form {
+        width: 90vw;
+        padding-left: 0;
+        margin-top: 4vh
+    }
+    
+    .contacts .form {
+        margin-top:25px;
+    }
+    
+    input,
+    textarea.message {
+        font-size: 5vw;
+    }
+    
+    .message {
+        width: 90vw;
+        height: 166px;
+        padding-top: 3vw;
+        padding-left: 8px;
+        
+    }
+    
+    .form .button1 {
+        margin-left: 10%;
+    }
+    
+    .form .button1 {
+        padding-top: 12px;
+    }
+    
+    footer .container::after { 
+        content: "."; 
+        clear: both;
+        display: block;
+        height: 0;
+        visibility: hidden; 
+        height: 19vh;
+}
+    
+    .modalDialog > div {
+	    width: 100%;
+}
+
+}
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+    header {
+        background-size: auto;
+    }
+    
+    .logo {
+        width: 25%;
+        background-size: 90%
+    }
+    
+    .nav {
+        width: 75%;
+        font-size: 12px;
+        margin-top: 1vh;
+        padding-left:20%
+    }
+    
+    
+    .button {
+        width: 10vw;
+        height: 5vh;
+    }
+    
+    .caption h3 {
+        font-size: 2vw;
+    }
+    
+    .caption h1 {
+        font-size: 5vw;
+    }
+    
+    .caption p {
+        font-size: 2vw;
+        line-height: 3vw
+    }
+    
+    header .caption {
+        height: 40vw;
+    }
+    
+    .caption .button1 {
+        vertical-align: middle;
+        font-size: 1.5vw;
+        font-weight: 600;
+        padding-top: 2vh;
+    }
+    
+    .wwd .box {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 9vh 1vw 4vh;
+        width: 34vw;
+        height: 28vw;
+    }
+    
+    .wwd .box p {
+        font-size: 1.8vw;
+    }
+    
+    div.windmill {
+        padding-top: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .box2 img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        
+    }
+    
+    .windmill .button-row{ 
+        justify-content: center; 
+    }
+    
+    .windmill .button{
+        margin-left: 0;
+    }
+
+    .windmill .button:nth-child(2) {
+        margin-left: -30vw;
+    }
+    
+    .our-portfolio ul {
+        padding-left: 0;
+    }
+    
+    .our-portfolio .photo-gallery {
+        justify-content: space-around;
+    }
+    
+    .our-portfolio .photo-gallery .photo-gallery-item img {
+        width: 36vw;
+        height: auto;
+    }
+    
+    
+    
+    .our-blog-posts {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    our-blog-posts .photo-gallery {
+        justify-content: center;
+    }
+    
+    .our-blog-posts .fruits {
+        width: 48.5%;
+        background-size: cover;
+        margin-right: 0px;
+        height: 40vw;
+    }
+    
+    .description {
+        width: 100%;
+    }
+    
+    .our-blog-posts h5 {
+        font-size: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 0;
+    }
+
+    .our-blog-posts p {
+        font-size: 1.5vw;
+    }
+    
+    .second2 {
+        width: 48.5%;
+        margin-left: 3%
+    }
+
+
+    .our-blog-posts .glasses {
+        width: 100%;
+        background-size: cover;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 20vw;
+        margin-bottom: 0px;
+    }
+    
+    .our-blog-posts .plane {
+        width: 100%;
+        background-size: cover;
+        margin-left: 0px;
+        height: 20vw;
+    }
+    
+    .box-group .statistics {
+        width: 23vw;
+        height: 12vw;
+        font-size: 1.5vw;
+    }
+    
+    .statistics h3 {
+        margin-top: 3vw;
+        margin-bottom: 0px;
+    }
+    
+    .contacts .map {
+        width: 50%;
+    }
+    
+    .contacts .map img {
+        height: 27vw;
+        width: auto;
+        
+    }
+    
+    .form {
+        height: 27vw;
+    }
+    
+    .contacts .form {
+        width: 50%;
+    }
+    
+    .form form {
+        width: 48%;
+        height: 3vw;
+    }
+    
+    input,
+    textarea.message {
+        font-size: 2vw;
+    }
+    
+    
+    .form form input {
+        width: 100%;
+        height: 4vw;
+        margin-bottom: 3vw;
+    }
+    
+    form:nth-child(3) {
+        width:100%;
+        height: 19vw;
+        margin-bottom: 0;
+    }
+    
+    .form form .message{
+        width: 100%;
+        height: 16.5vw;
+        padding-bottom: 13.5vw;
+        margin-bottom: 2vw;
+        padding-left: 8px;
+    }
+
+    
+    .button {
+        margin-top: 0;
+        height: 3vw;
+        padding-top: 1.1vw;
+        width: 11vw;
+}
+    
+    
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        background-size: auto;
+    }
+    
+    .logo {
+        width: 25%;
+        background-size: 90%
+    }
+    
+    .nav {
+        width: 75%;
+        font-size: 12px;
+        margin-top: 1vh;
+        padding-left:20%
+    }
+    
+    
+    .button {
+        width: 10vw;
+        height: 5vh;
+    }
+    
+    .caption h3 {
+        font-size: 2vw;
+    }
+    
+    .caption h1 {
+        font-size: 5vw;
+    }
+    
+    .caption p {
+        font-size: 2vw;
+        line-height: 3vw
+    }
+    
+    header .caption {
+        height: 40vw;
+    }
+    
+    .caption .button1 {
+        vertical-align: middle;
+        font-size: 1.5vw;
+        font-weight: 600;
+        padding-top: 2vh;
+    }
+    
+    .wwd .box {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 9vh 1vw 4vh;
+        width: 34vw;
+        height: 28vw;
+    }
+    
+    .wwd .box p {
+        font-size: 1.8vw;
+    }
+    
+    div.windmill {
+        padding-top: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .windmill .button{
+        margin-left: 0;
+    }
+
+    .windmill .button:nth-child(2) {
+        margin-left: -20vw;
+    }
+    
+    
+    .box2 img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        
+    }
+    
+    .windmill .button-row{ 
+        justify-content: center; 
+    }
+    
+    .our-portfolio ul {
+        padding-left: 0;
+    }
+    
+    .our-portfolio .photo-gallery {
+        justify-content: space-around;
+    }
+    
+    .our-portfolio .photo-gallery .photo-gallery-item img {
+        width: 36vw;
+        height: auto;
+    }
+    
+    
+    
+    .our-blog-posts {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    our-blog-posts .photo-gallery {
+        justify-content: center;
+    }
+    
+    .our-blog-posts .fruits {
+        width: 48.5%;
+        background-size: cover;
+        margin-right: 0px;
+        height: 40vw;
+    }
+    
+    .description {
+        width: 100%;
+    }
+    
+    
+    .our-blog-posts h5 {
+        font-size: 1.5vw;
+        margin-top: 1vw;
+        margin-bottom: 0;
+    }
+
+    .our-blog-posts p {
+        font-size: 1vw;
+    }
+    
+    
+    .second2 {
+        width: 48.5%;
+        margin-left: 3%
+    }
+
+
+    .our-blog-posts .glasses {
+        width: 100%;
+        background-size: cover;
+        margin-right: 0px;
+        margin-left: 0px;
+        height: 20vw;
+        margin-bottom: 0px;
+    }
+    .our-blog-posts .plane {
+        width: 100%;
+        background-size: cover;
+        margin-left: 0px;
+
+        height: 20vw;
+    }
+    
+ 
+    .box-group .statistics {
+        width: 23vw;
+        height: 12vw;
+        font-size: 1.5vw;
+    }
+    
+    .statistics h3 {
+        margin-top: 3vw;
+        margin-bottom: 0px;
+    }
+     
+    .contacts .map {
+        width: 50%;
+    }
+    
+    .contacts .map img {
+        height: 27vw;
+        width: auto;
+        
+    }
+    
+    .form {
+        height: 27vw;
+    }
+    
+    .contacts .form {
+        width: 50%;
+    }
+    
+    .form form {
+        width: 48%;
+        height: 3vw;
+    }
+    
+    .form form input {
+        width: 100%;
+        height: 4vw;
+        margin-bottom: 3vw;
+    }
+    
+    
+    input,
+    textarea.message {
+        font-size: 1.5vw;
+        padding-left: 8px;
+    }
+    form:nth-child(3) {
+        width:100%;
+        height: 19vw;
+        margin-bottom: 0;
+    }
+    
+    .form form .message{
+        width: 100%;
+        height: 16.5vw;
+        padding-bottom: 13vw;
+        margin-bottom: 2vw;
+    }
+
+    
+    .button {
+        margin-top: 0;
+        height: 3vw;
+        padding-top: 1.2vw;
+        width: 10vw;
+    }
+    
+    
+}
+
+
+
+@media (min-width: 1025px) and (max-width: 1440px){
+ 
+        
+    .contacts .map {
+        width: 50%;
+    }
+    
+    .contacts .map img {
+        height: 22vw;
+        width: auto;
+        
+    }
+    
+    .form {
+        height: 22vw;
+    }
+    
+    .contacts .form {
+        width: 50%;
+    }
+    
+    .form form {
+        width: 48%;
+        height: 2vw;
+    }
+    
+    .form form input {
+        width: 100%;
+        height: 4vw;
+        margin-bottom: 2vw;
+    }
+    
+    input,
+    textarea.message {
+        font-size: 1.4vw;
+        padding-left: 8px;
+    }
+    form:nth-child(3) {
+        width:100%;
+        height: 13vw;
+        margin-bottom: 0;
+    }
+    
+    .form form .message{
+        width: 100%;
+        height: 11.5vw;
+        padding-bottom: 9vw;
+        margin-bottom: 2vw;
+    }
+
+    
+    .button {
+        margin-top: 0;
+        height: 3vw;
+        padding-top: 0.9vw;
+        width: 10vw;
+        font-size: 1vw
+    }
+        
+}
+
+@media (min-width: 1900px) and (max-width: 2560px){
+    
+            
+    .contacts .map {
+        width: 50%;
+    }
+    
+    .contacts .map img {
+        height: 12vw;
+        width: auto;
+        
+    }
+    
+    .form {
+        height: 12vw;
+    }
+    
+    .contacts .form {
+        width: 50%;
+    }
+    
+    .form form {
+        width: 48%;
+        height: 1vw;
+    }
+    
+    .form form input {
+        width: 100%;
+        height: 2vw;
+        margin-bottom: 2vw;
+    }
+    
+    form:nth-child(3) {
+        width:100%;
+        height:6vw;
+        margin-bottom: 0;
+    }
+    
+    .form form .message{
+        width: 100%;
+        height: 5vw;
+        padding-bottom: 3vw;
+        margin-bottom: 1.5vw;
+        padding-left: 8px;
+    }
+
+    
+    .button {
+        margin-top: 0;
+        height: 2vw;
+        padding-top: 0.6vw;
+        width: 6vw;
+        font-size: 0.7vw
+    }
+    
+    .windmill .button:nth-child(2) {
+            margin-left: -7vw;
+    }
+}
