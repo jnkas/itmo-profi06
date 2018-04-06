@@ -97,7 +97,7 @@ section.section.first {
     margin-top: 10px;
 }
 
-.section .head_label a {
+.section .head_label .open {
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -338,6 +338,21 @@ section.section.fifth {
     position: relative;
 }
 
+.section.fifth .block-4 .rightside-5 {
+    float: right;
+    padding-left: 15px;
+    max-width: 50%;
+}
+
+.section.fifth .block-4 .rightside-5 .topright-5 {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.section.fifth .block-4 .rightside-5 .bottomright-5 {
+    position: relative;
+}
+
 .section.fifth .block-4 .descr {
     max-width: 555px;
     min-height: 60px;
@@ -376,21 +391,6 @@ section.section.fifth {
 .section.fifth .block-4 .leftside-5 img,
 .section.fifth .block-4 .rightside-5 img {
     max-width: 555px;
-}
-
-.section.fifth .block-4 .rightside-5 {
-    float: right;
-    padding-left: 15px;
-    max-width: 50%;
-}
-
-.section.fifth .block-4 .rightside-5 .topright-5 {
-    margin-bottom: 30px;
-    position: relative;
-}
-
-.section.fifth .block-4 .rightside-5 .bottomright-5 {
-    position: relative;
 }
 
 section.section.sixth {
@@ -612,4 +612,12 @@ footer .rightcont span {
 
 .regform .close {
     float: right;
+}
+
+.toggler {
+    display: none; 
+}
+
+.toggler:checked + .modal {
+    display: block;
 }

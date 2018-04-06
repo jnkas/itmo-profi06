@@ -32,11 +32,11 @@
                       <h1>Responsive layout</h1>
                       <p>Integer ut dolor eget magna congue gravida ut at arcu. Vivamus maximus neque</p>
                       <p>quis luctus tempus. Vestibulum consequat.</p>
-                      <a href="#modalform">view details</a>
+                      <label for="toggler" class="open">view details</label>
                   </div>
             </div>
         </section>
-        
+
         <section class="section second">
            <div class="container">
                <h3>What we do</h3>
@@ -259,6 +259,7 @@
              </div>
          </footer>
         
+        <input type="checkbox" class="toggler" id="toggler">
         <div id="modalform" class="modal">
             <div class="regform">
                 <form action="" method="post" id="reg">
@@ -268,7 +269,7 @@
                         <input type="password" name="password" placeholder="Password..." required>
                         <input type="email" name="email" placeholder="Your Email..." required>
                         <button type="submit" class="sign-in fa-sign-in"></button>
-                        <a href="" class="close fa-times"></a>
+                        <label for="toggler" class="close fa-times"></label>  
                     </fieldset>
                 </form>
             </div>
