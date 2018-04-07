@@ -2,8 +2,36 @@
 
     .container {
         max-width: 960px;
+        padding: 0 15px;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    .section.third .block-2 .content h3 {
+        max-width: 74%;
+    }
+    
+    .section.third .block-2 img {
+        min-width: 80%;
+        max-width: 455;
+    }
+    
+    .section.fourth .line {
+        margin-bottom: 10px;
+    }
+    
+    .section.fourth .line .col-3.box-1,
+    .section.fourth .line .col-3.box-2,
+    .section.fourth .line .col-3.box-3,
+    .section.fourth .line .col-3.box-4 {
+        padding: 0;
+        max-width: 225px;
+    }
+    
+    .section.fourth .line .col-3.box-1,
+    .section.fourth .line .col-3.box-2,
+    .section.fourth .line .col-3.box-3 {
+        margin-right: 10px;
     }
     
     .section.fourth .line .col-3 img {
@@ -41,6 +69,10 @@
         min-width: 100%;
     }
     
+    .contacts.container {
+        padding: 27px 15px;
+    }
+    
     .regform {
         width: 40vw;
         margin-left: 30vw;
@@ -51,6 +83,7 @@
     
     .container {
         max-width: 768px;
+        padding: 0 10px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -70,7 +103,7 @@
     }
     
     .section.second .box-group {
-        margin-left: 106px;
+        margin-left: 96px;
     }
     
     .section.second .box-group .col-3.box-1,
@@ -90,8 +123,13 @@
         float: none;
     }
     
+    .section.third .block-2 .content h3 {
+        max-width: 45%;
+    }
+
     .section.third .block-2 img {
-        min-width: 480px;
+        min-width: 60%;
+        max-width: 450px;
         margin-left: 288px;
         margin-top: -55px;
         float: none;
@@ -114,14 +152,13 @@
     .section.fourth .line .col-3.box-2,
     .section.fourth .line .col-3.box-3,
     .section.fourth .line .col-3.box-4 {
-        padding: 0;
         max-width: 269px;
         margin-right: 10px;
     }
     
     .section.fourth .line {
         margin-bottom: 0; 
-        padding-left: 115px;
+        padding-left: 105px;
     }
     
     section.section.fifth {
@@ -138,7 +175,7 @@
         float: none;
         padding: 0;
         max-width: 538px;
-        margin-left: 115px;
+        margin-left: 105px;
         margin-bottom: 20px;
     }
     
@@ -166,7 +203,7 @@
     }
     
     .section.sixth .box-group.row {
-        margin-left: 110px;
+        margin-left: 105px;
     }
     
     section.section.seventh {
@@ -174,7 +211,7 @@
     }
     
     .section.seventh .box-group.row {
-        padding: 0 115px;
+        padding: 0 105px;
     }
     
     .section.seventh .block-5 .leftside-7 {
@@ -214,6 +251,10 @@
     footer .rightcont {
         max-width: 50%;
     }
+    
+    .contacts.container {
+        padding: 27px 10px;
+    }  
     
     .regform {
         width: 60vw;
@@ -255,7 +296,7 @@
     
     .section.first .menu.first li {
         font-size: 14px;
-        margin-left: 5vw;
+        margin-left: 15px;
     }
     
     .section.first .head_label h1 {
@@ -294,7 +335,7 @@
     }
     
     .section.third .block-2 .content h3 {
-        max-width: 70%;
+        max-width: 76%;
     }
     
     .section.third .block-2 .left, 
@@ -305,8 +346,8 @@
     
     .section.third .block-2 img {
         min-width: 200px;
-        margin-left: 10px;
-        margin-top: 0;
+        margin: 0;
+        max-width: 440px;
         float: none;
     }
     
@@ -369,7 +410,7 @@
     }
     
     .section.seventh .block-5 .rightside-7 .buttons {
-        margin-left: 174px;
+        margin-left: 162px;
     }  
     
     .contacts {
@@ -404,6 +445,7 @@
     
     .container {
         max-width: 320px;
+        padding: 0;
     }
     
     section.section.first,
@@ -415,6 +457,11 @@
     section.section.seventh {
         padding: 0;
         padding: 30px 0;
+    }
+    
+    .section.first .menu.first li {
+        padding-left: 33px;
+        margin: 10px 0;
     }
     
     .section.first .head_label {
