@@ -1,0 +1,331 @@
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Front End Coursework</title>
+        <meta name="description" content="Coursework project for ITMO web development course">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="navbar-header">
+                    <div class="logo">
+                        <img src="img/white_logo.png" alt="logo-image">
+                    </div>
+                    <div class="main-nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-nav">
+                        <div class="show-menu" onclick="displayMenu()">Menu</div>
+                        <ul id="mobile-dropdown">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="main-slide">
+                <div>
+                    <div class="intro-container">
+                        <div class="intro-to">
+                            <span>Introduction to</span>
+                            <h2>My coursework</h2>
+                        </div>
+                        <div class="intro-descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.</div>
+                        <div class="discover-button">
+                        <a href="#">Discover More</a>
+                        </div>                           
+                    </div>                   
+                </div> 
+            </section> 
+ 
+
+            <section id="what-we-do">
+                <div>
+                    <div class="section-header">
+                        <h4>What We Do</h4>
+                        <div class="header-separator"></div>
+                    </div>
+
+                    <div class="section-content">
+                        <div class="section-item">
+                            <div class="icon"><img src="img/first-service-main.png"></div>
+                            <h4>Easy Customizations</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <div class="section-item">
+                            <div class="icon"><img src="img/second-service-main.png"></div>
+                            <h4>Creative Ideas</h4>
+                            <p>Praesent libero. Sed cursus ante dapibus diam. Sed nisi.</p>
+                        </div>
+                        <div class="section-item">
+                            <div class="icon"><img src="img/third-service-main.png"></div>
+                            <h4>Good Profit</h4>
+                            <p>Nulla quis sem at nibh elementum imperdiet. </p>
+                        </div>
+                        <div class="section-item">
+                            <div class="icon"><img src="img/fourth-service-main.png"></div>
+                            <h4>Open To Public</h4>
+                            <p>Praesent mauris. Fusce nec tellus sed augue semper porta.</p>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="new-offers">
+                <div class="offers-section">
+                    <div class="offers-text">
+                        <h4>New offers just arrived,<br>Get them now and take profit.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.</p>
+                        <ul>
+                            <li>
+                                <div class="discover-button-new">
+                                    <a href="#">Discover More</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="cta-button" onclick="displayForm()">
+                                    <a>Purchase Now</a>
+                                </div>
+                                <div class="popup-form" id="modal-win-form">
+                                    <form>
+                                        <div>
+                                            <label>Name</label>
+                                            <input type="text" value="" />
+                                        </div>
+                                        <div>
+                                        <label>Phone</label>
+                                            <input type="phone" value="" />
+                                        </div>
+                                        <div>
+                                            <button class="order-btn">Place an order</button>
+                                        </div>
+                                    </form>   
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="offers-image">
+                        <img src="img/what-we-do-right-image.png" alt="Images depicting various foods">
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+            </section>
+
+
+            <section id="portfolio">
+                <div class="section-content">
+                            <div class="portfolio-heading">
+                                <div class="section-header">
+                                    <h4>Our Portfolio</h4>
+                                    <div class="header-separator"></div>
+                                </div>
+                            </div>
+                            <div class="pf-contents">
+                                <div class="filter-categories">
+                                    <ul>
+                                        <li><span class="selected">All</span></li>
+                                        <li><span>Nature</span></li>
+                                        <li><span>Workspace</span></li>
+                                        <li><span>City</span></li>
+                                        <li><span>Technology</span></li>
+                                    </ul>
+                                </div>
+                                <div class="images">
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="img/portfolio_01.jpg" alt="Fancy workplace">
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="img/portfolio_02.jpg" alt="Laptop working">
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="img/portfolio_03.jpg" alt="A person typing something on a laptop">
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="img/portfolio_04.jpg" alt="Cityscape">
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="img/portfolio_05.jpg" alt="A person at a mountaintop">
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="img/portfolio_06.jpg" alt="Abstract lamp for a workplace">
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="img/portfolio_07.jpg" alt="Coworking environment">
+                                        </div>
+                                    </div>
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="img/portfolio_08.jpg" alt="Woman working on a laptop">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="clear: both;"></div> 
+            </section>
+
+
+            <section id="blog">
+                <div class="blog-contents">
+                    <div class="section-header">
+                        <h4>Our Blog Posts</h4>
+                        <div class="header-separator"></div>
+                    </div>
+                    <div class="blog-entries">
+                        <div class="entry-one">
+                            <img src="img/blog_01.jpg" alt="Tasty foods">
+                            <div class="post-content">
+                                <h4>Tasty Food Served</h4>
+                                <span>Posted: <em>George</em>  /  Date: <em>11 Aug 2017</em>  /  Category: <em>Design</em></span>
+                            </div>
+                        </div>
+                        <div class="blog-post-right">
+                            <div class="entry-two">
+                                    <img src="img/blog_02.jpg" alt="Workplace with glasses on to pof laptop">
+                                    <div class="post-content">
+                                        <h4>Creative &amp; Clean Workspace</h4>
+                                        <span>Posted: <em>Kerley</em>  /  Date: <em>24 Jul 2017</em>  /  Category: <em>Artwork</em></span>
+                                    </div>
+                            </div>
+                            <div class="entry-three">
+                                <img src="img/blog_03.jpg" alt="Crashed plane">
+                                <div class="post-content">
+                                    <h4>Crashed Plane Captured</h4>
+                                    <span>Posted: <em>Johnny</em>  /  Date: <em>16 Jul 2017</em>  /  Category: <em>Branding</em></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                
+            </section>
+
+            <section id="company-facts">
+                    <div class="section-content">
+                        <div class="section-item">
+                            <div class="counter">926</div>
+                            <span>Regular Visitors</span>
+                        </div>           
+                        <div class="section-item">
+                            <div class="counter">214</div>
+                            <span>Finished Projects</span>
+                        </div>
+                        <div class="section-item">
+                            <div class="counter">118</div>
+                            <span>Happy Clients</span>
+                        </div>
+                        <div class="section-item">
+                            <div class="counter">16</div>
+                            <span>Total Awards</span>
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+            </section>
+
+
+            <section id="contact-us">
+                <div>
+                    <div>
+                        <div class="section-header">
+                            <h4>Contact Us</h4>
+                            <div class="header-separator"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-content">
+                    <div class="holland-map">
+                        <div class="map">
+                            <img src="img/holland-map.png" alt="A map of Holland">
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                          <form action="" method="post">
+                            <div class="name-input">
+                              <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Your name..." required="">
+                              </fieldset>
+                            </div>
+                            <div class="email-input">
+                              <fieldset>
+                                <input name="email" type="email" id="email" placeholder="Your email..." required="">
+                              </fieldset>
+                            </div>
+                            <div class="message-input">
+                              <fieldset>
+                                <textarea name="message" rows="6" id="message" placeholder="Your message..." required=""></textarea>
+                              </fieldset>
+                            </div>
+                            <div class="contact-button">
+                                <button type="submit" class="cta-button">Send Message</button>
+                            </div>
+                          </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="section-content">
+                <div class="copyright-text">
+                    <p>Copyright &copy; 2018 A.Karabanova - Design: <span>Tooplate</span></a></p>
+                </div>
+                <div class="sm-icons">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-rss"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>       
+    </body>
+</html>

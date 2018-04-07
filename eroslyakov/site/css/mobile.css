@@ -1,0 +1,505 @@
+@media (max-width: 1140px) {
+
+    .container {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .section.fourth .line .col-3 img {
+        max-width: 100%;
+    }
+    
+    .section.fourth .menu.fourth ul {
+        padding: 0;
+    }
+    
+    .section.fifth .block-4 .leftside-5 img,
+    .section.fifth .block-4 .rightside-5 img {
+        max-width: 100%;
+    }
+    
+    .section.fifth .block-4 .rightside-5 .topright-5 {
+        margin-bottom: 24px;
+        position: relative;
+    }
+    
+    .section.fifth .block-4 .leftside-5 .descr {
+        max-width: 96.8%;
+    }
+
+    .section.seventh .block-5 .leftside-7 img {
+        max-width: 100%;
+    }
+    
+    .section.seventh .block-5 .rightside-7 input {
+        min-width: 100%;
+    }
+    
+    .section.seventh .block-5 .rightside-7 textarea {
+        min-height: 112px;
+        min-width: 100%;
+    }
+    
+    .regform {
+        width: 40vw;
+        margin-left: 30vw;
+    }
+}
+
+@media (max-width: 960px) {
+    
+    .container {
+        max-width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .section.first img {
+        max-width: 12vw;
+        margin-top: 22px;
+    }
+    
+    .section.first .menu.first li {
+        padding-left: 30px; 
+    }
+    
+    .col-3 {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    
+    .section.second .box-group {
+        margin-left: 106px;
+    }
+    
+    .section.second .box-group .col-3.box-1,
+    .section.second .box-group .col-3.box-2,
+    .section.second .box-group .col-3.box-3,
+    .section.second .box-group .col-3.box-4 {
+        padding: 0;
+        margin-right: 10px;
+    }
+    
+    .col-6 {
+        width: 100%;
+    }
+    
+    .section.third .content .col-6 {
+        margin-left: 48px;
+        float: none;
+    }
+    
+    .section.third .block-2 img {
+        min-width: 480px;
+        margin-left: 288px;
+        margin-top: -55px;
+        float: none;
+    }
+    
+    section.section.fourth {
+        min-height: 600px;
+        padding: 40px 0;
+    }
+    
+    .section.second h3, .section.fourth h3 {
+        margin-bottom: 40px;
+    }
+    
+    .section.fourth .menu.fourth ul {
+        transform: translateX(182px);
+    }
+    
+    .section.fourth .line .col-3.box-1,
+    .section.fourth .line .col-3.box-2,
+    .section.fourth .line .col-3.box-3,
+    .section.fourth .line .col-3.box-4 {
+        padding: 0;
+        max-width: 269px;
+        margin-right: 10px;
+    }
+    
+    .section.fourth .line {
+        margin-bottom: 0; 
+        padding-left: 115px;
+    }
+    
+    section.section.fifth {
+        padding: 40px 0;
+        min-height: 600px;
+    }
+    
+    .section.fifth h3, .section.seventh h3 {
+        margin-bottom: 50px;
+    }
+    
+    .section.fifth .block-4 .leftside-5, 
+    .section.fifth .block-4 .rightside-5 {
+        float: none;
+        padding: 0;
+        max-width: 538px;
+        margin-left: 115px;
+        margin-bottom: 20px;
+    }
+    
+    .section.fifth .block-4 .rightside-5 .topright-5 {
+        margin-bottom: 20px;
+    }
+    
+    .section.fifth .block-4 .leftside-5 .descr {
+        max-width: 100%;
+    }
+    
+    section.section.sixth {
+        min-height: 240px;
+        background: #ffffff;
+        padding: 60px 0;
+    }
+    
+    .section.sixth .box-group .col-3.box-1,
+    .section.sixth .box-group .col-3.box-2,
+    .section.sixth .box-group .col-3.box-3,
+    .section.sixth .box-group .col-3.box-4 {
+        padding: 0;
+        max-width: 274px;
+        margin-bottom: 10px;
+    }
+    
+    .section.sixth .box-group.row {
+        margin-left: 110px;
+    }
+    
+    section.section.seventh {
+        padding: 40px 0;
+    }
+    
+    .section.seventh .box-group.row {
+        padding: 0 115px;
+    }
+    
+    .section.seventh .block-5 .leftside-7 {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .section.seventh .block-5 .rightside-7 {
+        padding-left: 0;
+    }
+    
+    .section.seventh .block-5 .rightside-7 .topright-7 .nameform,
+    .section.seventh .block-5 .rightside-7 .topright-7 .emailform {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 269px;
+    }
+    
+    .section.seventh .block-5 .rightside-7 input,
+    .section.seventh .block-5 .rightside-7 textarea {
+        width: 100%;
+    }
+    
+    .section.seventh .block-5 .rightside-7 .topright-7 .nameform {
+        padding-right: 15px;
+    }
+    
+    .section.seventh .block-5 .rightside-7 .topright-7 .emailform {
+        padding-left: 15px;
+    }
+    
+    .section.seventh .block-5 .rightside-7 .buttons {
+        margin-left: 211px;
+    }
+    
+    footer .leftcont,
+    footer .rightcont {
+        max-width: 50%;
+    }
+    
+    .regform {
+        width: 60vw;
+        margin-left: 20vw;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .container {
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    section.section.first,
+    section.section.second,
+    section.section.third,
+    section.section.fourth,
+    section.section.fifth,
+    section.section.sixth,
+    section.section.seventh {
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .section.first div.white_logo {
+        display: none;
+    }
+    
+    .section.first .menu.first {
+        float: none;
+    }
+    
+    .section.first ul.row {
+        padding: 0;
+    }
+    
+    .section.first .menu.first li {
+        font-size: 14px;
+        margin-left: 5vw;
+    }
+    
+    .section.first .head_label h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    
+    .section.first .head_label {
+        max-width: 400px;
+        margin: 120px 0 0 40px;
+        position: static;
+        transform: none;
+    }
+    
+    .section.first .head_label p {
+        margin: 0;
+        line-height: 1.2rem;
+    }    
+    
+    .section.second .box-group {
+        margin-left: 0;
+    }
+    
+    .section.second .box-group .col-3.box-1, 
+    .section.second .box-group .col-3.box-2, 
+    .section.second .box-group .col-3.box-3, 
+    .section.second .box-group .col-3.box-4 {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .section.second .box-group .box {
+        max-width: 230px;
+        margin: 5px 5px;
+    }
+    
+    .section.third .block-2 .content h3 {
+        max-width: 70%;
+    }
+    
+    .section.third .block-2 .left, 
+    .section.third .block-2 .right {
+        margin: 0;
+        padding: 0 10px;
+    }   
+    
+    .section.third .block-2 img {
+        min-width: 200px;
+        margin-left: 10px;
+        margin-top: 0;
+        float: none;
+    }
+    
+    .section.third .block-2 p {
+        text-align: justify;
+    }
+    
+    .section.fourth .menu.fourth ul {
+        transform: translateX(54px);
+    }
+    
+    .section.fourth .line {
+         padding-left: 0; 
+    }
+    
+    .section.fourth .line .col-3.box-1, 
+    .section.fourth .line .col-3.box-2, 
+    .section.fourth .line .col-3.box-3, 
+    .section.fourth .line .col-3.box-4 {
+        padding: 0 5px;
+        max-width: 240px;
+        margin-right: 0;
+    }
+    
+    .section.fifth .block-4 .leftside-5, .section.fifth .block-4 .rightside-5 {
+        max-width: 470px;
+        margin: 0 5px 20px;
+    }
+    
+    .section.sixth .box-group.row {
+        margin: 0;
+    }
+    
+    .section.sixth .box-group .col-3.box-1, 
+    .section.sixth .box-group .col-3.box-2, 
+    .section.sixth .box-group .col-3.box-3, 
+    .section.sixth .box-group .col-3.box-4 {
+        padding: 0 5px;
+        max-width: 240px;
+        margin-bottom: 10px;
+    }
+    
+    .section.seventh .box-group.row {
+        padding: 0 5px;
+    }
+    
+    .section.seventh .block-5 .rightside-7 .topright-7 {
+        margin-bottom: 0;
+    }
+    
+    .section.seventh .block-5 .rightside-7 .topright-7 .nameform, 
+    .section.seventh .block-5 .rightside-7 .topright-7 .emailform {
+        padding: 0;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .section.seventh .block-5 .rightside-7 textarea {
+        margin-bottom: 20px;
+    }
+    
+    .section.seventh .block-5 .rightside-7 .buttons {
+        margin-left: 174px;
+    }  
+    
+    .contacts {
+        min-height: 60px;
+        padding: 15px 0;
+    }
+      
+    footer .leftcont, footer .leftcont,
+    footer .leftcont, footer .rightcont{
+        max-width: 100%;
+        margin: 0;
+        margin-left: 0;
+        float: none;
+        text-align: center;
+    }
+    
+    footer .leftcont, footer p {
+        margin: 0 0 10px;
+    }
+    
+    footer .rightcont span {
+        float: none;   
+    }
+    
+    .regform {
+        width: 80vw;
+        margin-left: 10vw;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .container {
+        max-width: 320px;
+    }
+    
+    section.section.first,
+    section.section.second,
+    section.section.third,
+    section.section.fourth,
+    section.section.fifth,
+    section.section.sixth,
+    section.section.seventh {
+        padding: 0;
+        padding: 30px 0;
+    }
+    
+    .section.first .head_label {
+        max-width: 300px;
+        margin: 100px 0 0 10px;
+    }
+    
+    .col-3 {
+        width: 100%;
+    }
+    
+    .section.second .box-group .col-3.box-1, 
+    .section.second .box-group .col-3.box-2, 
+    .section.second .box-group .col-3.box-3, 
+    .section.second .box-group .col-3.box-4 {
+        max-width: 320px;
+        min-height: 150px;
+        padding: 5px 10px;
+    }
+    
+    .section.second .box-group .box {
+        max-width: 300px;
+        margin: 0;
+    }
+    
+    .section.third .block-2 .content h3 {
+        max-width: 80%;
+    }
+    
+    .section.third .block-2 .content p {
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        letter-spacing: 0.5px;
+        margin-bottom: 16px;
+    }
+
+    .section.third .butline {
+        margin-left: 13px;
+    }
+    
+    .section.third .content .butline li {
+        margin-right: 13px;
+    }
+    
+    .section.third .block-2 img {
+        max-width: 300px;
+        margin-left: 0;
+    }
+    
+    .section.fourth .menu.fourth ul {
+        transform: translateX(10px);
+        margin-bottom: 30px;
+    }
+    
+    .section.fourth .menu.fourth ul > li {
+        padding-left: 40px;
+    }
+    
+    .section.fifth h3, .section.seventh h3 {
+        margin-bottom: 40px;
+    }
+    
+    .section.fourth .line .col-3.box-1, 
+    .section.fourth .line .col-3.box-2, 
+    .section.fourth .line .col-3.box-3, 
+    .section.fourth .line .col-3.box-4 {
+        padding: 0 5px;
+        max-width: 280px;
+        margin-left: 20px;
+    }
+    
+    .section.sixth .box-group .col-3.box-1, 
+    .section.sixth .box-group .col-3.box-2, 
+    .section.sixth .box-group .col-3.box-3, 
+    .section.sixth .box-group .col-3.box-4 {
+        padding: 0 5px;
+        max-width: 160px;
+    }
+    
+    .section.seventh .block-5 .rightside-7 .buttons {
+        margin-left: 95px;
+    }
+    
+    .regform {
+        width: 100vw;
+        margin-left: 0;
+    }    
+}

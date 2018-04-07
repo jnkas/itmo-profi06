@@ -1,0 +1,151 @@
+@media (max-width: 1400px) {
+
+    .container {
+        max-width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .col-3 {
+        width: 50%;
+        }
+    
+    .col-left, .col-right {
+        width: 50%;
+    }
+    
+    header {
+        min-width: 85vw;
+}
+    .main {
+        min-height: auto;
+}
+        
+    .offers_flex {
+        margin: 0;
+    }
+
+    .offers_box{
+        margin: 0;
+        max-width: 50%;
+}
+    
+    .box-group {
+        margin: 0;
+}
+    
+    .contact_box img {
+        max-width: 95%;
+}   
+    
+    .photo-gallery {
+        justify-content: space-around;
+}
+    
+    .blog_gallery {
+      justify-content: center;
+}
+    
+    .blog_gallery__item {
+        width: auto;
+}
+    
+
+    .box-group .col-3 .box,
+    .box-group .col-3 .box_numbers {
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    
+    .form_textarea {
+        height: 90%;
+}
+    
+    .action_button {
+        font-size: 0.7rem;
+}
+
+    .contact .contact_box {
+        width: auto;
+        height: 170px;
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .col-left .blog_img,
+    .col-left .blog_text {
+        margin-right: 1rem;
+}
+    
+}
+
+
+/*стили для телефонов */
+
+@media (max-width: 767px) {
+    
+    section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .col-3 {
+        width: 100%;
+    }
+    
+
+    
+    .col-6 {
+        width: 100%;
+    }
+    
+    .col-left, .col-right {
+        width: 100%;
+    }
+    
+    .contact_box img {
+        max-width: 100%;
+}
+    
+    .main_text {
+        width: auto;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+    
+
+    .top-nav {
+        display: flex;
+        flex-flow: column wrap;
+        padding: 0;
+    }
+    
+    .offers_box {
+        max-width: 100%;
+        margin: 10% 0;
+}    
+    
+    .photo-gallery {
+        height: auto;
+        font-size: 2rem;
+}
+    
+    .contact .contact_box {
+        height: fit-content;
+    }
+    
+    .col-left .blog_img, 
+    .col-left .blog_text {
+        margin-right: 0;
+}
+ 
+    .blog_gallery__item {
+        margin-bottom: 1rem;
+}
+    .content {
+        width: 250px;
+        padding: 25px;
+}
+
+}
+
