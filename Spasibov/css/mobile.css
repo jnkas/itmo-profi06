@@ -1,0 +1,115 @@
+@media (max-width: 999px) {
+	.col-3 {
+	    width: 50%;
+	}
+	.box-group .col-3 .box {
+	    margin: auto;
+	    margin-bottom: 15px;
+	}
+    
+    .firstmills {
+            display: none;
+    }
+    
+    .b2 {
+         padding-top: 10%;
+    }
+    
+    .col-6 {
+        margin:auto;
+        width: 100%;
+    }
+    .nightSection {
+    height: 520px;
+}
+}
+
+@media (max-width: 767px) {
+
+.col-3 {
+ width: 100%;
+}
+    
+.section5 {
+        height: 1000px;
+    }
+    
+.firstmills {
+            display: none;
+    }
+    
+.b2 {
+         padding-top: 10%;
+        
+    }
+    
+.nightSection {
+    height: 600px;
+}
+    
+.col-6 {
+        margin:auto;
+        width: 100%;
+    }
+
+.lastB {
+    padding-top: 30%;
+    padding-right: 0%;
+}    
+
+.b4 {
+       font-size: 10px;
+}
+    
+.photo-gallery_item{
+    margin-right: auto;
+     margin-left: auto;
+    }
+}
+
+@media (max-width: 400px) {
+
+.section3 {
+    background: url(../images/what-we-do-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.photo-gallery_item {
+    margin-right: auto;
+     margin-left: auto;
+    }
+ 
+.section5 {
+        height: 500px;
+}   
+    
+.col-3 {
+	    width: 100%;
+}
+    
+.firstmills {
+            display: none;
+}
+    
+.b2 {
+         padding-top: 10%;
+        
+}
+    
+.col-6 {
+        margin:auto;
+        width: 100%;
+}
+
+        
+.lastB {
+    padding-top: 35%;
+    padding-right: 0%;
+}
+
+.b4 {
+       font-size: 10px;
+}
+}
