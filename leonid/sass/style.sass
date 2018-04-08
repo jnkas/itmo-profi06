@@ -1,0 +1,439 @@
+
+@import "colors"
+
+*
+	margin: 0
+	padding: 0
+	font-family: "Open Sans", Arial, sans-serif
+	box-sizing: border-box
+
+.container
+	max-width: 1120px
+	margin: 0 auto
+	padding: 0 20px
+
+.caps
+	text-transform: uppercase
+
+a
+	text-decoration: none
+	color: $light-text
+
+h2 
+	text-transform: uppercase
+	margin: 0 auto
+	text-align: center
+	font-size: 18px
+
+h2::after
+	display: block
+	width: 50px
+	height: 2px
+	background-color: $dark-text
+	margin: 0 auto
+	margin-top: 5px
+	content: ""
+
+.button
+	display: block
+	width: 122px
+	height: 41px
+	font-size: 12px
+	/* letter-spacing: 1px; */
+	border-radius: 26px
+	padding: 12px 0
+	text-transform: uppercase
+	text-align: center
+
+
+
+
+header
+	background-image: url("/images/slide_03.jpg")
+	background-position: center top
+	background-repeat: no-repeat
+	background-size: cover
+	height: 100vh
+	color: $light-text
+	.title
+		padding: 30px 0
+		::after
+			clear: both
+			content: ""
+			display: block
+		.logo
+			display: inline-block
+		.menu
+			display: inline-block
+			float: right
+			padding: 7px
+			text-transform: uppercase
+			li
+				display: inline-block
+				list-style-type: none
+				margin-left: 25px
+				font-size: 13px
+				letter-spacing: 1px
+	.centered
+		margin: 0 auto
+		max-width: 550px
+		text-align: center
+	.tagline
+		margin-top: 180px
+		text-transform: uppercase
+	h1
+		line-height: 36px
+		text-transform: uppercase
+	.motto
+		margin-top: 20px
+		font-size: 14px
+		line-height: 25px
+	a.button
+		background-color: $header-btn
+		margin: 0 auto
+		margin-top: 20px
+	a.button:hover
+		background: none
+		font-weight: bold
+		transform: scale(1.1)
+		border: 2px solid $header-btn
+		padding: 10px 0
+
+
+.what-we-do
+	background-color: $sec-1-bg
+	padding-top: 100px
+	padding-bottom: 80px
+	.box-group
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		margin: 0px -12px
+		margin-top: 50px
+		.box
+			background-color: $sec-1-box-bg
+			text-align: center
+			padding: 30px
+			margin: 0 12px
+			box-shadow: 0 0 20px 0px$sec-1-box-shadow
+			padding-bottom: 45px
+			h3
+				margin-bottom: 14px
+				margin-top: 26px
+				font-size: 15px
+			p
+				font-size: 12px
+				line-height: 20px
+		
+
+.offer
+	background-image: url("/images/what-we-do-bg.png")
+	background-position: center top
+	background-repeat: no-repeat
+	background-size: cover
+	min-height: 50vh
+	padding: 80px 0
+	&::after
+		content: ""
+		display: block
+		clear: both
+	.offer-post
+		width: 49%
+		color: $light-text
+		float: left
+		h4
+			width: 70%
+			font-size: 24px
+			letter-spacing: 1px
+			margin-bottom: 20px
+		p
+			margin-bottom: 26px
+			font-size: 12px
+			line-height: 23px
+			letter-spacing: 0.5px
+		a.button
+			float: left
+			margin-right: 30px
+			// margin-top: 20px
+			&.discover
+				color: $dark-text
+				background-color: $light-text
+				&:hover
+					background: none
+					font-weight: bold
+					transform: scale(1.1)
+					border: 2px solid $header-btn
+					padding: 10px 0
+					color: $light-text
+			&.purchase
+				background-color: $header-btn
+				&:hover
+					background: none
+					font-weight: bold
+					transform: scale(1.1)
+					border: 2px solid $header-btn
+					padding: 10px 0
+		&::after
+			content: ""
+			display: block
+			clear: both
+	.offer-img
+		float: right
+		img
+			width: 530px
+
+
+.portfolio
+	background-color: $sec-1-bg
+	padding-top: 100px
+	padding-bottom: 80px
+	min-height: 300px
+	.portfolio-nav
+		margin: 50px auto
+		text-align: center
+		li
+			display: inline-block
+			font-size: 14px
+			letter-spacing: 0.5px
+			margin: 0 10px
+			a
+				text-decoration: none
+				color: $dark-text
+			&:hover
+				a
+					color: $sec-3-link-hover
+	.group-box
+		display: flex
+		flex-wrap: wrap
+		margin: 0 -13px
+		.box
+			font-size: 0
+			padding: 13px
+			width: 25%
+			img
+				width: 100%
+				opacity: 0.6
+				transition: opacity 1s ease 0s
+				&:hover
+					opacity: 1
+
+
+.blog-posts
+	background-image: url("/images/blog-bg.png")
+	color: $light-text
+	padding: 100px 0
+	h2
+		margin-bottom: 60px
+	h2::after
+		background-color: $light-text
+	.bp-group
+		height: 470px
+		&::after
+		content: ""
+		display: block
+		clear: both
+		.bp-main-wrapper
+			padding-right: 15px
+			width: 50%
+			height: 100%
+			display: inline-block
+			.bp-main
+				background-image: url('../images/blog_01.jpg')
+				float: left
+				position: relative
+				width: 100%
+				height: 100%
+		.bp-box-wrapper
+			padding-left: 15px
+			width: 50%
+			height: 100%
+			display: inline-block
+		.bp-box
+			float: left
+			width: 100%
+			height: 100%
+			.post
+				position: relative
+				height: 100%
+			.top-wrapper
+				height: 50%
+				padding-bottom: 15px
+				.top
+					background-image: url('../images/blog_02.jpg')
+			.bottom-wrapper
+				height: 50%
+				padding-top: 15px
+				.bottom
+					background-image: url('../images/blog_03.jpg')
+		.bp-label
+			position: absolute
+			bottom: 0
+			left: 0
+			right: 0
+			background-color: rgba(0,0,0,0.5)
+			padding: 15px 20px
+			h3
+				font-size: 17px
+				margin: 5px 0
+			.info-value
+				font-weight: bold
+	ul
+		list-style: none
+		li
+			display: inline-block
+			font-size: 12px
+			margin-right: 5px		
+		li::before
+			content: "/"				
+		li:first-child::before
+			content: ""				
+
+
+.counter
+	background-color: $sec-1-box-bg
+	padding: 100px 0
+	.box-group
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		margin: 0px -12px
+		.box
+			background-color: $sec-1-bg
+			text-align: center
+			padding: 30px
+			margin: 0 12px
+			padding-bottom: 35px
+			width: 25%
+			h3
+				font-size: 24px
+				color: #a4d28f
+			p
+				font-size: 14px
+				padding-top: 10px
+				text-transform: uppercase
+		
+
+.contacts
+	height: 500px
+	background-image: url('../images/contact-bg.png')
+	padding-top: 100px
+	h2
+		color: $light-text
+		margin-bottom: 60px
+	h2::after
+		background-color: $light-text
+	.contact-box
+		height: 235px
+		position: relative
+		.map-wrapper
+			width: 50%
+			padding-right: 12px
+			height: 100%
+			display: inline-block
+			iframe
+				width: 100%
+				height: 100%
+				border: 0
+		.form-wrapper
+			display: inline-block
+			padding-left: 12px
+			height: 100%
+			width: 50%
+			position: absolute
+			top: 0
+			right: 0
+			.form-text
+				display: inline-block
+				width: 50%
+				height: 40px
+				padding-right: 12px
+				input
+					width: 100%
+					height: 100%
+					border: none
+					background-color: rgba(255,255,255,0.2)
+					padding: 10px
+					font-size: 12px
+			.form-email
+				display: inline-block
+				width: 50%
+				height: 40px
+				padding-left: 12px
+				input
+					width: 100%
+					height: 100%
+					border: none
+					background-color: rgba(255,255,255,0.2)
+					padding: 10px
+					font-size: 12px
+			textarea
+				display: block
+				width: 100%
+				height: 107px
+				margin-top: 24px
+				border: none
+				background-color: rgba(255,255,255,0.2)
+				padding: 10px
+				color: #757575
+				font-size: 12px
+			.message
+				background-color: $header-btn
+				margin-top: 24px
+				&:hover
+					background: none
+					font-weight: bold
+					transform: scale(1.1)
+					border: 2px solid $header-btn
+					padding: 10px 0
+
+
+footer
+	height: 100px
+	background-color: #202528
+	padding-top: 50px
+	font-size: 12px
+	color: $light-text
+	.container
+		max-width: 1120px
+		margin: 0 auto
+		padding: 0 20px
+		&::after
+			clear: both
+			display: block
+			content: ''
+		.copyright
+			display: inline-block
+			float: left
+			p
+				span
+					color: #c03844
+		.social
+			display: inline-block
+			float: right
+			margin-top: -20px
+			ul
+				li
+					width: 50px
+					height: 50px
+					display: inline-block
+					list-decoration: none
+					background-image: url("../images/dribble_.png")
+				.fb
+					background-position: 465px 348px
+					background-size: 992%
+				.tw
+					background-position: 410px 348px
+					background-size: 992%
+				.in
+					background-position: 137px 348px
+					background-size: 992%
+				.wf
+					background-position: 137px 294px
+					background-size: 992%
+				.ball
+					background-position: 300px 184px
+					background-size: 992%
