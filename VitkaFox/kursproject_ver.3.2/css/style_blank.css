@@ -1,0 +1,197 @@
+            /*Подключение шрифтов*/
+
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+            /*Объявление стилей body, wrapper, общие стили для класса блоков*/
+
+body {
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#2d3134), color-stop(#547da9), color-stop(#021c34), to(#292d2f));
+    background-image: -webkit-linear-gradient(top, #2d3134, #547da9, #021c34, #292d2f);
+    background-image: -o-linear-gradient(top, #2d3134, #547da9, #021c34, #292d2f);
+    background-image: linear-gradient(to bottom, #2d3134, #547da9, #021c34, #292d2f);
+    font-family: "Open Sans";
+}
+div.page-wrapper {
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    /* background-color: #2d3133;  */
+    opacity: 0.8;
+    width: 1141px;
+}
+
+            /*Объявление стилей блока header*/
+
+header.page-wrapper__header {
+    margin: 0 auto;
+    margin-top: 40px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 100%;
+}
+a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-bottom: 2px solid #cfd7e4;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    color: #cfd7e4;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+a:hover, a:focus {
+	outline: none;
+}
+a::before,
+a::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 100px;
+	height: 100px;
+	border: 2px solid rgba(255,255,255,0.1);
+	border-radius: 50%;
+	content: '';
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, -webkit-transform 0.3s;
+	-o-transition: transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s, -webkit-transform 0.3s;
+	-webkit-transform: translateX(-50%) translateY(-50%) scale(0.2);
+	-ms-transform: translateX(-50%) translateY(-50%) scale(0.2);
+	    transform: translateX(-50%) translateY(-50%) scale(0.2);
+}
+a::after {
+	width: 90px;
+	height: 90px;
+	border-width: 6px;
+	-webkit-transform: translateX(-50%) translateY(-50%) scale(0.8);
+	-ms-transform: translateX(-50%) translateY(-50%) scale(0.8);
+	    transform: translateX(-50%) translateY(-50%) scale(0.8);
+}
+a:hover::before,
+a:hover::after,
+a:focus::before,
+a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+	-ms-transform: translateX(-50%) translateY(-50%) scale(1);
+	    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+/*Объявление стилей блока section*/
+
+section.page-wrapper__section {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    /* margin-top: 80px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 20px;
+}
+section.page-wrapper__section p {
+    font-family: 'Marck Script', cursive;
+    color: #cfd7e4;
+    font-size: 50px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+section.page-wrapper__section img {
+    width: 1000px;
+    height: auto;
+    opacity: .8;
+}
+
+/*Объявление стилей блока footer*/
+
+div.flexcontainer {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 40px;
+    max-width: 1141px;
+}
+footer.page-wrapper__footer {
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    opacity: .9;
+}
+.footer__info {
+    font-family: "Raleway", sans-serif;
+    color: #cfd7e4;
+}
+div.footer__social {
+    min-width: 300px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+div.footer__social a {
+    border: none;
+}
+div.footer__social img {
+    width: 50px;
+    height: auto;
+}

@@ -1,0 +1,69 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+div.modal-body {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+}
+div.modal-body p, label {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+}
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #bec5d1;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+select {
+    width: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #bec5d1;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+input[type="checkbox"] {
+    margin-left: 20px;
+}
+input[type="submit"], input[type="reset"] {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #bec5d1;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+input[type="text"]:hover, 
+input[type="email"]:hover,
+input[type="password"]:hover,
+select:hover {
+    border: 2px solid white;
+}
+input[type="text"]:focus, 
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    border: 3px solid #52729d;
+    background-color: mintcream;
+}
+input[type="submit"]:hover, 
+input[type="reset"]:hover {
+    border: 2px solid white;
+}
+input[type="submit"]:active, 
+input[type="reset"]:active {
+    border: 3px solid #52729d;
+    background-color: #a9c8f6;
+}

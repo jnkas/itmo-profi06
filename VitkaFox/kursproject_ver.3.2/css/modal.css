@@ -1,0 +1,75 @@
+#okno {
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fafafa;
+}
+#okno:target {
+    display: block;
+}
+.close {
+    display: inline-block;
+    border: none;
+    color: black;
+    /* padding: 10px; */
+    margin: 10px;
+    text-decoration: none;
+    background: #fafafa;
+    font-size: 1em;
+    cursor:pointer;
+}
+.close:hover {
+    background: #e6e6ff;
+}
+#okno input[type="password"], #okno input[type="email"] {
+    width: 320px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #bec5d1;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+#okno label {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+}
+#okno input[type="submit"], #okno input[type="reset"] {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #bec5d1;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+#okno input[type="email"]:hover,
+#okno input[type="password"]:hover {
+    border: 2px solid white;
+}
+#okno input[type="email"]:focus,
+#okno input[type="password"]:focus {
+    border: 3px solid #52729d;
+    background-color: mintcream;
+}
+#okno input[type="submit"]:hover, 
+#okno input[type="reset"]:hover {
+    border: 2px solid white;
+}
+#okno input[type="submit"]:active, 
+#okno input[type="reset"]:active {
+    border: 3px solid #52729d;
+    background-color: #a9c8f6;
+}

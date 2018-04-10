@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Страница курсовой работы</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite">
+    <link rel="stylesheet" href="css/style_general.css">
+    <link rel="stylesheet" href="css/hover_effects.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Обертка всей страницы-->
+    <div class="page-wrapper"> 
+        <!--header - page-wrapper__header-->
+        <header class="page-wrapper__header"> 
+            <div class="header__nav--action">
+                <nav class="nav">
+                    <ul class="nav__list he-nav iw-effect-1">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#publication">Публикации</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#picture-gallery">Фотогалерея</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#media-content">Видео/аудио контент</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#contacts">Обратная связь</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="action">
+                    <div class="registr he-nav iw-effect-1"><a href="pages/registr.html" target="_blank">Регистрация</a></div> <!--Переход на страницу регистрации-->
+                    <div id="zatemnenie">
+                        <div id="okno">
+                            <h3 class="modal-title">Форма входа</h3>
+                            <form action="/echo" method="POST">
+                                <label for="login-field">Введите Ваш логин (e-mail):</label><br>
+                                <input id="login-field" type="email" name="login" placeholder="email@mail.ru" required><br><br>
+                                <label for="password-field">Введите пароль:</label><br>
+                                <input id="password-field" type="password" name="password" placeholder="Пароль" required><br><br>
+                                <input type="submit" name="send" value="Отправить">
+                                <input type="reset" value="Очистить форму">
+                            </form>
+                            <a href="#" class="close">Закрыть окно</a>
+                        </div>
+                    </div>
+                    <div class="modal he-nav iw-effect-1"><a href="#okno">Войти</a></div> <!--Ссылка на открытие модального окна-->
+                </div>
+            </div>
+            <h1>Victoria coursework</h1>
+            <div class="header__content">
+                <div class="author">
+                    <img src="img/png_effects/venzel.png" alt="Декоративный вензель">
+                </div>
+                <div class="slogan">
+                    <blockquote>
+                        — Геральт, — сказал он вдруг, — но ведь чудовища существуют. Ну, может, их теперь не так много, как бывало, может, 
+                        они не таятся за каждым деревом в лесу, но они — есть. Существуют. Так зачем же люди дополнительно придумывают таких, 
+                        каких нет? Мало того, верят в свои придумки? А? Геральт из Ривии, прославленный ведьмак? А? Ты не задумывался над причиной?<br>
+                        — Задумывался, прославленный поэт. И знаю причину.<br>
+                        — Интересно бы услышать.<br>
+                        — Люди, — Геральт повернул голову, — любят выдумывать страшилищ и страхи. Тогда сами себе они кажутся не столь уродливыми 
+                        и ужасными. Напиваясь до белой горячки, обманывая, воруя, исхлестывая жен вожжами, моря голодом старую бабку, четвертуя 
+                        топорами пойманную в курятнике лису или осыпая стрелами последнего оставшегося на свете единорога, они любят думать, 
+                        что ужаснее и безобразнее их все-таки привидение, которое ходит на заре по хатам. Тогда у них легчает на душе. И им 
+                        проще жить.
+                    </blockquote>
+                    <p>Анджей Сапковский, "Ведьмак"</p>
+                </div>
+            </div>
+        </header>
+        <!--section one - select-theme-->
+        <section class="page-wrapper__section select-theme">
+            <div class="subtitle">
+                <h2>Выбрать тему страницы</h2>
+                <hr>
+            </div>
+            <div class="select-theme__content">
+                <figure class="theme-trumb">
+                    <a class="link-img" href="pages/blank.html"><img class="theme-icon winter" src="icon/icon_2.jpg" alt="icon_2"></a>
+                    <figcaption class="theme-text winter">Тема 1</figcaption>
+                </figure>
+                <figure class="theme-trumb">
+                    <a class="link-img" href="pages/blank.html"><img class="theme-icon spring" src="icon/icon_3.jpg" alt="icon_3"></a>
+                    <figcaption class="theme-text spring">Тема 2</figcaption>
+                </figure>
+                <figure class="theme-trumb">
+                    <a class="link-img" href="pages/blank.html"><img class="theme-icon summer" src="icon/icon_4.jpg" alt="icon_4"></a>
+                    <figcaption class="theme-text summer">Тема 3</figcaption>
+                </figure>
+                <figure class="theme-trumb">
+                    <a class="link-img" href="pages/blank.html"><img class="theme-icon autumn" src="icon/icon_1.jpg" alt="icon_1"></a>
+                    <figcaption class="theme-text autumn">Тема 4</figcaption>
+                </figure>
+            </div>
+        </section>
+        <!--section two - publication-->
+        <section class="page-wrapper__section publication">
+            <div id="publication" class="subtitle">
+                <h2>Публикации</h2>
+                <hr>
+            </div>
+            <div class="flexcontainer">
+                <div class="publication__content">
+                    <div class="publication__info">
+                        <h3>Самая добрая сказка</h3>
+                        <time datetime="2018-03-20">20 марта 2018</time>
+                    </div>
+                    <div class="publication__desc he-nav iw-effect-1">
+                        <p class="publication__text">– Мир тебе, – ласково сказал Ангел, присаживаясь рядом с Котом на толстую ветку и стряхивая с неё снег.<br>– Привет, – Кот приоткрыл зелёный глаз, лениво оглядел Ангела и отвернулся.<br>Ангел спрятал под крыльями босые ноги и посмотрел вниз. Под ними лежал белый двор, полный смеха, визга, летающих снежков и скрипа шагов.<br>– Высоко ты забрался, – сказал Ангел, оценивая расстояние до земли.<br>– Зато сюда даже Сашкин снежок не долетит.<br>Ангел понимающе кивнул и подобрал опущенные крылья. Помолчали.</p>
+                        <a href="pages/blank.html">Читать далее...</a>
+                    </div>
+                </div>
+                <div class="publication__image"></div>
+                <a class="button publication__button" href="pages/blank.html">Перейти в раздел</a>
+            </div>
+        </section>
+        <!--section three - picture-gallery-->
+        <section class="page-wrapper__section picture-gallery">
+            <div id="picture-gallery" class="subtitle">
+                <h2>Фотогалерея</h2>
+                <hr>
+            </div>
+            <nav class="picture-gallery__nav">
+                <ul class="nav__list he-nav iw-effect-1">
+                    <li class="nav__item">
+                        <a class="nav__link" href="pages/blank.html">Рубрика 1</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="pages/blank.html">Рубрика 2</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="pages/blank.html">Рубрика 3</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="pages/blank.html">Рубрика 4</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="picture-gallery__content">
+                <figure class="picture-trumb">
+                    <a class="link-img" href="img/1.jpg"><img class="image_1_icon" src="img/1_icon.jpg" alt="Image1"></a>
+                    <!-- <figcaption class="image_1_text">Image name</figcaption> -->
+                </figure>
+                <figure class="picture-trumb">
+                    <a class="link-img" href="img/2.jpg"><img class="image_2_icon" src="img/2_icon.jpg" alt="Image2"></a>
+                    <!-- <figcaption class="image_2_text">Image name</figcaption> -->
+                </figure>
+                <figure class="picture-trumb">
+                    <a class="link-img" href="img/3.jpg"><img class="image_3_icon" src="img/3_icon.jpg" alt="Image3"></a>
+                    <!-- <figcaption class="image_3_text">Image name</figcaption> -->
+                </figure>
+                <figure class="picture-trumb">
+                    <a class="link-img" href="img/4.jpg"><img class="image_4_icon" src="img/4_icon.jpg" alt="Image4"></a>
+                    <!-- <figcaption class="image_4_text">Image name</figcaption> -->
+                </figure>
+                <figure class="picture-trumb">
+                    <a class="link-img" href="img/5.jpg"><img class="image_5_icon" src="img/5_icon.jpg" alt="Image5"></a>
+                    <!-- <figcaption class="image_5_text">Image name</figcaption> -->
+                </figure>
+                <figure class="picture-trumb">
+                    <a class="link-img" href="img/6.jpg"><img class="image_6_icon" src="img/6_icon.jpg" alt="Image6"></a>
+                    <!-- <figcaption class="image_6_text">Image name</figcaption> -->
+                </figure>
+                <figure class="picture-trumb">
+                    <a class="link-img" href="img/7.jpg"><img class="image_7_icon" src="img/7_icon.jpg" alt="Image7"></a>
+                    <!-- <figcaption class="image_7_text">Image name</figcaption> -->
+                </figure>
+                <figure class="picture-trumb">
+                    <a class="link-img" href="img/8.jpg"><img class="image_8_icon" src="img/8_icon.jpg" alt="Image8"></a>
+                    <!-- <figcaption class="image_8_text">Image name</figcaption> -->
+                </figure>
+            </div>
+            <a class="button picture-gallery__button" href="pages/blank.html">Перейти в раздел</a>
+        </section>
+        <!--section four - media-content-->
+        <section class="page-wrapper__section media-content">
+            <div id="media-content" class="subtitle">
+                <h2>Видео и аудио контент</h2>
+                <hr>
+            </div>
+            <div class="flexcontainer">
+            <div class="media-content__video">
+                <figure class="video-track">
+                    <figcaption>Hans Zimmer The Da Vinci Code CONCERT HD<br>Hollywood in Vienna 2015</figcaption>
+                    <video src="video/Hans Zimmer's The Da Vinci Code CONCERT HD.mp4" controls>Браузер не поддерживает видео</video>
+                </figure>
+            </div>
+            <div class="media-content__audio">
+                <figure class="audio-track">
+                    <figcaption>Антонио Вивальди - Мечта о снеге</figcaption>
+                    <audio src="audio/short_playlist/antonio_vivaldi_-_mechta_o_snege.mp3" controls>Браузер не поддерживает музыку</audio>
+                </figure>
+                <figure class="audio-track">
+                    <figcaption>Антонио Вивальди - Предчувствие грозы</figcaption>
+                    <audio src="audio/short_playlist/antonio_vivaldi_-_predchuvstvie_grozy.mp3" controls>Браузер не поддерживает музыку</audio>
+                </figure>
+                <figure class="audio-track">
+                    <figcaption>Фредерик Шопен - Апрель мечты</figcaption>
+                    <audio src="audio/short_playlist/frederic_chopin_-_aprel_mechty.mp3" controls>Браузер не поддерживает музыку</audio>
+                </figure>
+                <figure class="audio-track">
+                    <figcaption>Hans Zimmer - Ангелы и демоны</figcaption>
+                    <audio src="audio/short_playlist/hans_zimmer_-_angely_i_demony.mp3" controls>Браузер не поддерживает музыку</audio>
+                </figure>
+                <figure class="audio-track">
+                    <figcaption>Вольфганг Амадей Моцарт - Музыка ангелов</figcaption>
+                    <audio src="audio/short_playlist/wolfgang_amadeus_mozart_-_muzyka_angelov.mp3" controls>Браузер не поддерживает музыку</audio>
+                </figure>
+            </div>
+            <a class="button media__button video" href="pages/blank.html">Перейти к видеоконтенту</a>
+            <a class="button media__button audio" href="pages/blank.html">Перейти к аудиоконтенту</a>
+            </div>
+        </section>
+        <!--section five - site-content-->
+        <section class="page-wrapper__section site-content">
+            <div class="subtitle">
+                <h2>Контент сайта</h2>
+                <hr>
+            </div>
+            <div class="site-content__list">
+                <div class="site-content__item">
+                    <p>Публикации</p>
+                    <a class="button site-content__button" href="pages/blank.html">102</a>
+                </div>
+                <div class="site-content__item">
+                    <p>Изображения</p>
+                    <a class="button site-content__button" href="pages/blank.html">254</a>
+                </div>
+                <div class="site-content__item">
+                    <p>Видео</p>
+                    <a class="button site-content__button" href="pages/blank.html">26</a>
+                </div>
+                <div class="site-content__item">
+                    <p>Аудио</p>
+                    <a class="button site-content__button" href="pages/blank.html">148</a>
+                </div>
+            </div>
+        </section>
+        <!--section six - contacts-->
+        <section class="page-wrapper__section contacts">
+            <div id="contacts" class="subtitle">
+                <h2>Обратная связь</h2>
+                <hr>
+            </div>
+            <div class="flexcontainer">
+                <div class="contacts__map">
+                    <p>Наше месторасположение на карте:</p>
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8b97f98331b2f46be15883c2e5d643d5bcef82cf52bfb5387b8067bbba195106&amp;width=557&amp;height=313&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+                <div class="contacts__user-message">
+                    <form action="/echo" method="post">
+                        <input type="text" name="username" placeholder="Ваше имя" required>
+                        <input type="email" name="email" placeholder="email@mail.ru" required><br>
+                        <textarea name="message" cols="30" rows="7" placeholder="Ваше сообщение"></textarea><br>
+                        <div class="input-container">
+                            <input type="submit" name="send" value="Отправить">
+                            <input type="reset" value="Очистить форму">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--footer - page-wrapper__footer-->
+        <footer class="page-wrapper__footer">
+            <div class="flexcontainer">
+                <div class="footer__info">
+                    <p class="row">Copyright &copy; 2018 VitkaFox</p>
+                    <p class="row">E-mail: vitka.fox@yandex.ru</p>
+                </div>
+                <div class="footer__social he-nav iw-effect-1">
+                    <a href="https://plus.google.com/u/0/+VitkaFox" title="VitkaFox в Google+" target="_blank" rel="nofollow">
+                        <img src="icon/googleplus.jpg" alt="Google+">
+                    </a>
+                    <a href="https://vk.com/vitka_fox" title="VitkaFox в ВКонтакте" target="_blank" rel="nofollow">
+                        <img src="icon/vkontakte.jpg" alt="ВКонтакте">
+                    </a>
+                    <a href="http://twitter.com" title="VitkaFox в Twitter" target="_blank" rel="nofollow">
+                        <img src="icon/twitter.jpg" alt="Twitter">
+                    </a>
+                    <a href="http://www.fb.com" title="VitkaFox в Facebook" target="_blank" rel="nofollow">
+                        <img src="icon/facebook.jpg" alt="Facebook">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
