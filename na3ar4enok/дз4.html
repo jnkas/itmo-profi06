@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> </title>
+  </head>
+  <body>
+    <script type="text/javascript">
+ //задача 1
+    // let a = [12, 4, 3, 10, 1, 20];
+    // let b = [-3, -7, -100, -33];
+    // let v = b.concat(a); //b в нвчало а
+    // let c = a.concat(b); //а в начало  b
+
+    //задача 2
+
+
+    // let area = [ 1, null, 0, null, 1, null, null, null, null ] ;
+    // let pole = "<table border = 1px>";
+    // let step;
+    //
+    // for (let i = 0; i < 6; i += 3) {
+    //   pole += "<tr height = 30px>";
+    //
+    //   for (let j = 0; j < 3; j ++) {
+    //
+    //     if ( area[j + i] === 1 ) {
+    //       step = "X";
+    //     } else if ( area[j + i] === 0 ) {
+    //       step = "0";
+    //     } else {
+    //       step = "";
+    //     }
+    //
+    //     pole += "<td>" + step + "</td>";
+    //   }
+    //
+    //   pole += "</tr>"
+    // }
+    //
+    // pole += "</table>"
+    //
+    // document.write(pole);
+
+
+    //задача 3
+    // let arr = [12,4,3,10,1,20];
+    // arr.sort(numbers_);
+    // function numbers_(a, b) {
+    // return a - b;
+    // }
+    // arr.splice(-1, 1);
+    // arr.splice(-0, 1);
+    // console.log(arr);
+
+    // задача 
+
+    let arr = [12,4,3,10,1,20];
+    let n = arr.length, i = 1, j = 2;
+    while (i < n)
+    {
+      if (arr[i-1] < arr[ i ]){
+        i = j;
+        j++;
+      }
+      else {
+        let t = arr[i-1];
+        arr[i-1] = arr[i];
+        arr[i] = t;
+        i--;
+        if (i == 0){
+          i = j; j++;
+        }
+      }
+    }
+         console.log(arr);
+
+    </script>
+
+
+
+     </script>
+  </body>
+</html>

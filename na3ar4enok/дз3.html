@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+//задача первая
+// var str = prompt("Введите число");
+// var num = str.split('');
+// var sum = 0;
+//
+// for (var i = 0; i < num.length; i++) {
+// 	a = Number(num[i]);
+// 	if(a != NaN){
+// 		sum = sum + a;
+// 	};
+// }
+// document.write(sum);
+
+
+
+//задача 2я
+
+// var str = prompt("Введите предложение");
+// var sumbol = prompt("Введите символ который нужно удвоить");
+//
+// var a = str.split('');
+//
+// for (var i = 0; i < a.length; i++) {
+// 	if(a[i] === sumbol) {
+// 		a[i] = sumbol+sumbol;
+// 	};
+// };
+// str = a.join('');
+// alert(str);
+
+
+//задача 3
+ var pass = prompt("Введите пароль ");
+ var rex = /(?=^.{9,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/;
+ if (rex.test(pass)) {
+ 	alert("Пароль правильный")
+ }
+ else{
+	 	alert("Пароль неправильный")
+ }
+ 
+		</script>
+	</body>
+</html>
